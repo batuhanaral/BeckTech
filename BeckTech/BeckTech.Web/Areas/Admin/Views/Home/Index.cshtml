@@ -1,18 +1,18 @@
-﻿@*@model List<Article>
+﻿@model List<ArticleDto>
 
- @foreach (var article in Model)
+@*  @foreach (var article in Model)
 {
     <h1>@article.Title</h1>
     <br />
     <h5>@article.Content</h5>
+    <h5>@article.CreatedBy</h5>
     <br />
-    <h3>@article.CreatedBy</h3>
     <br />
     <br />
 
 } *@
 
-<div class="content-wrapper">
+ <div class="content-wrapper">
     <!-- Content -->
 
     <div class="container-xxl flex-grow-1 container-p-y">
@@ -551,4 +551,4 @@
     <!-- / Footer -->
 
     <div class="content-backdrop fade"></div>
-</div>
+</div> 

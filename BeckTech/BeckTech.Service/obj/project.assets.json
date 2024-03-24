@@ -2181,11 +2181,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Service\\BeckTech.Service.csproj",
+      "projectUniqueName": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Service\\BeckTech.Service.csproj",
       "projectName": "BeckTech.Service",
-      "projectPath": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Service\\BeckTech.Service.csproj",
+      "projectPath": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Service\\BeckTech.Service.csproj",
       "packagesPath": "C:\\Users\\batuh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Service\\obj\\",
+      "outputPath": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\batuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2202,11 +2202,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\batuh\\source\\repos\\BeckTech\\BechTech.Entity\\BechTech.Entity.csproj": {
-              "projectPath": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BechTech.Entity\\BechTech.Entity.csproj"
+            "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BechTech.Entity\\BechTech.Entity.csproj": {
+              "projectPath": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BechTech.Entity\\BechTech.Entity.csproj"
             },
-            "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Data\\BeckTech.Data.csproj": {
-              "projectPath": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Data\\BeckTech.Data.csproj"
+            "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Data\\BeckTech.Data.csproj": {
+              "projectPath": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Data\\BeckTech.Data.csproj"
             }
           }
         }

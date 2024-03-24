@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PKtqR3lu0AJPho9OsY5pSwMs+DraeZh1JEBsRmB64lsGBXRyavG4RfEqR7myL3/bphj0Kfsi3muYnz866uetoQ==",
+  "dgSpecHash": "vl40OmvHlGptPwKuWNhjpJC5gpF9DmV9pG1Yc6d0v6pfuV/w0FCCqtRIbaY2EUfiBBJg2uqOOd1KOrVykQh2Jg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Web\\BeckTech.Web.csproj",
+  "projectFilePath": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\BeckTech.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\batuh\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\batuh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

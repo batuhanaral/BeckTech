@@ -2,11 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace BeckTech.Data.Mappings
 {
@@ -58,6 +54,7 @@ namespace BeckTech.Data.Mappings
                 PhoneNumberConfirmed=true,
                 EmailConfirmed=true,
                 SecurityStamp=Guid.NewGuid().ToString(),
+                ImageId = Guid.Parse("006B8234-53E7-4482-A70D-B36C12304432")
             };
             superAdmin.PasswordHash = CreatePasswordHash(superAdmin, "123456");
             var admin = new AppUser
@@ -73,6 +70,7 @@ namespace BeckTech.Data.Mappings
                 PhoneNumberConfirmed = false,
                 EmailConfirmed = false,
                 SecurityStamp = Guid.NewGuid().ToString(),
+                ImageId = Guid.Parse("E800C003-F241-43D9-8A75-0713987357F6")
             };
 
             admin.PasswordHash = CreatePasswordHash(admin, "123456");

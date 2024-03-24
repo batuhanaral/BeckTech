@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9mc4C4aJUSv87JIA8k/IBphNgZYlzLDiCw+BLXJpHjaq0pMfGfSOECbTJUdWqRrV/KF/7wJvFOLVALRC8yQSFA==",
+  "dgSpecHash": "jwYWjhMK3f5zZohw0aCeRuW5MRfgnVu0TXgTmPzC8YgSXIpMpc06Gt3IXn5/7F9OcoxPqSZ5WXlqr1XquLKWVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Core\\BeckTech.Core.csproj",
+  "projectFilePath": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Core\\BeckTech.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\batuh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\batuh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

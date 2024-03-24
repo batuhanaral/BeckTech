@@ -19,7 +19,8 @@ namespace BeckTech.Data.Mappings
                 ImageId = Guid.Parse("006B8234-53E7-4482-A70D-B36C12304432"),
                 CreatedBy   = "Admin Test",
                 CreatedDate = DateTime.Now,
-                IsDeleted   = false
+                IsDeleted   = false,
+                UserId = Guid.Parse("0B66F151-E4AB-4A80-B867-6B868CF2E400")
             },
             new Article
             {
@@ -32,10 +33,12 @@ namespace BeckTech.Data.Mappings
                 ImageId     = Guid.Parse("E800C003-F241-43D9-8A75-0713987357F6"),
                 CreatedBy   = "Admin Test",
                 CreatedDate = DateTime.Now,
-                IsDeleted   = false
-            } 
-            
-            
+                IsDeleted   = false,
+                UserId = Guid.Parse("0B66F151-E4AB-4A80-B867-6B868CF2E401")
+
+            }
+
+
             );
 
             

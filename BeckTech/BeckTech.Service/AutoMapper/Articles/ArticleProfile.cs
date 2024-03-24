@@ -7,13 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeckTech.Service.AutoMapper
+namespace BeckTech.Service.AutoMapper.Articles
 {
     public class ArticleProfile :Profile    
     {
         public ArticleProfile()
         {
             CreateMap<Article, ArticleDto>().ReverseMap();
+            CreateMap<ArticleUpdateDto, Article>().ReverseMap();
+            CreateMap<ArticleUpdateDto, ArticleDto>().ReverseMap();
         }
     }
 }

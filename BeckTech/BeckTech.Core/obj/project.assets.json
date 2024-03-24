@@ -2019,11 +2019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Core\\BeckTech.Core.csproj",
+      "projectUniqueName": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Core\\BeckTech.Core.csproj",
       "projectName": "BeckTech.Core",
-      "projectPath": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Core\\BeckTech.Core.csproj",
+      "projectPath": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Core\\BeckTech.Core.csproj",
       "packagesPath": "C:\\Users\\batuh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Core\\obj\\",
+      "outputPath": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\batuh\\AppData\\Roaming\\NuGet\\NuGet.Config",

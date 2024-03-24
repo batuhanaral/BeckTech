@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9IMdPp1m1e3baESXf/FZ9b2LGycLg03/D+dVzbqbHHgHISD0jbmsai4iC1esGqad/z9RI1NXoBs2r0mfdwXsfw==",
+  "dgSpecHash": "t+Jnj2GhTkp8ko30OtkV+CTm6fINeFv2FFND7dWvw8csBSWL9qQpFmVSRMBm5ekUC507Dzr2IAwsrQODF90FtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\batuh\\source\\repos\\BeckTech\\BeckTech.Service\\BeckTech.Service.csproj",
+  "projectFilePath": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Service\\BeckTech.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\batuh\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\batuh\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.28\\microsoft.aspnetcore.cryptography.internal.6.0.28.nupkg.sha512",
