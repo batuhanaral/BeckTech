@@ -20,14 +20,10 @@ namespace BeckTech.Service.Services.Concrete
         public async Task CreateArticleAsync(ArticleAddDto articleAddDto)
         {
             var userId = Guid.Parse("0B66F151-E4AB-4A80-B867-6B868CF2E400");
+            var imageId = Guid.Parse("006B8234-53E7-4482-A70D-B36C12304432");
 
-            var article = new Article
-            {
-                UserId = userId,
-                Content = articleAddDto.Content,
-                Title = articleAddDto.Title,
-                CategoryId = articleAddDto.CategoryId,
-            };
+            var article = new Article(articleAddDto.Title, articleAddDto.Content, userId, articleAddDto.CategoryId, imageId);
+          
             await _unitOfWork.GetRepository<Article>().AddAsycn(article);
             await _unitOfWork.SaveAsync();
 
@@ -51,7 +47,7 @@ namespace BeckTech.Service.Services.Concrete
             return map;
         }
 
-        public async Task UpdateArticleAsync(ArticleUpdateDto articleUpdateDto)
+        public async Task<string> UpdateArticleAsync(ArticleUpdateDto articleUpdateDto)
         {
             var article = await _unitOfWork.GetRepository<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleUpdateDto.Id, x => x.Category);
             article.Title = articleUpdateDto.Title;
@@ -60,9 +56,10 @@ namespace BeckTech.Service.Services.Concrete
 
             await _unitOfWork.GetRepository<Article>().UpdateAsycn(article);
             await _unitOfWork.SaveAsync();
+            return article.Title;
         }
 
-        public async Task SafeDeleteArticleAsync(Guid articleId)
+        public async Task<string> SafeDeleteArticleAsync(Guid articleId)
         {
             var article = await _unitOfWork.GetRepository<Article>().GetByGuidAsync(articleId);
             article.IsDeleted = true;
@@ -70,6 +67,7 @@ namespace BeckTech.Service.Services.Concrete
 
             await _unitOfWork.GetRepository<Article>().UpdateAsycn(article);
             await _unitOfWork.SaveAsync();
+            return article.Title;
         }
     }
 }

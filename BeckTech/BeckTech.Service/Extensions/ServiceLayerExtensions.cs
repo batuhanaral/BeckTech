@@ -2,12 +2,16 @@
 using BeckTech.Data.Repositories.Abtractions;
 using BeckTech.Data.Repositories.Concretes;
 using BeckTech.Data.UnitOfWorks;
+using BeckTech.Service.FluentValidations;
 using BeckTech.Service.Services.Abstractions;
 using BeckTech.Service.Services.Concrete;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -24,9 +28,18 @@ namespace BeckTech.Service.Extensions
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<ICategoryService, CategoryService>();
 
+            
 
 
             services.AddAutoMapper(assembly);
+
+            services.AddControllersWithViews().AddFluentValidation(opt =>
+            {
+                opt.RegisterValidatorsFromAssemblyContaining<ArticleValidator>();
+                opt.DisableDataAnnotationsValidation = true; //data annotationsları geçersiz kıldık
+                opt.ValidatorOptions.LanguageManager.Culture = new CultureInfo("tr"); //dil tanımladık
+            });
+
             return services;
         }
     }

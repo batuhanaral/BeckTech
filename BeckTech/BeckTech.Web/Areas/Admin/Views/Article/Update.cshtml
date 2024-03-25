@@ -6,6 +6,7 @@
         <div class="col-md-12">
             <div class="card mb-4">
                 <form asp-area="Admin" asp-controller="Article" asp-action="Update" method="post" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly"></div>
                     <div class="card-body">
                         <input type="hidden" asp-for="Id" />
                         <div class="form-group">
@@ -18,11 +19,13 @@
                         <div class="form-group">
                             <label asp-for="Title" class="form-label">Başlık</label>
                             <input asp-for=Title type="text" class="form-control mb-3" id="defaultFormControlInput" placeholder="Başlık Giriniz..." aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="Title" class="text-danger"></span>
 
                         </div>
                         <div class="form-group">
                             <label asp-for="Content" class="form-label">Makale</label>
                             <textarea asp-for="Content" type="text" style="min-height:300px" class="form-control mb-3" id="myEditor" placeholder="İçerik Giriniz" aria-describedby="defaultFormControlHelp"></textarea>
+                            <span asp-validation-for="Content" class="text-danger"></span>
 
                         </div>
 

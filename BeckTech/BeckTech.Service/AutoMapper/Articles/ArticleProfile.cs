@@ -16,6 +16,7 @@ namespace BeckTech.Service.AutoMapper.Articles
             CreateMap<Article, ArticleDto>().ReverseMap();
             CreateMap<ArticleUpdateDto, Article>().ReverseMap();
             CreateMap<ArticleUpdateDto, ArticleDto>().ReverseMap();
+            CreateMap<ArticleAddDto, Article>().ReverseMap();
         }
     }
 }
