@@ -3126,6 +3126,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BeckTech.Core": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
           "Microsoft.Extensions.Identity.Stores": "6.0.28"
         },
         "compile": {

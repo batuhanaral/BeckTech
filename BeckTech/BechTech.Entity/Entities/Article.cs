@@ -14,13 +14,14 @@ namespace BechTech.Entity.Entities
         {
             
         }
-        public Article(string title, string content, Guid userId,Guid categoriId, Guid imageId)
+        public Article(string title, string content, Guid userId, string createdBy, Guid categoriId, Guid imageId)
         {
             Title = title;
             Content = content;
             UserId = userId;
             ImageId = imageId;
             CategoryId = categoriId;
+            CreatedBy = createdBy;
 
         }
       

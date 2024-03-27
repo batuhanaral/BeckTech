@@ -3,10 +3,12 @@ using BeckTech.Data.Repositories.Abtractions;
 using BeckTech.Data.Repositories.Concretes;
 using BeckTech.Data.UnitOfWorks;
 using BeckTech.Service.FluentValidations;
+using BeckTech.Service.Helpers.Images;
 using BeckTech.Service.Services.Abstractions;
 using BeckTech.Service.Services.Concrete;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -27,7 +29,9 @@ namespace BeckTech.Service.Extensions
 
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IImageHelper, ImageHelper>();
 
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();//Login olan kullanıcıyı bulmamız için
             
 
 

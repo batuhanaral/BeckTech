@@ -21,6 +21,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\fotografeklemetest3_38.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\fotografeklemetest3_38.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\fotografeklemetest_408.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\fotografeklemetest_408.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\fotografeklemetest_956.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\fotografeklemetest_956.png"
+    },
+    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\articleScript.js",
       "PackagePath": "staticwebassets\\js\\articleScript.js"
     },

@@ -5,41 +5,72 @@
     <div class="row">
         <div class="col-md-12">
             <div class="card mb-4">
-                <form asp-area="Admin" asp-controller="Article" asp-action="Update" method="post" enctype="multipart/form-data">
+                <form asp-area="Admin" asp-controller="Article" asp-action="Update" method="post" enctype="multipart/form-data" id="articleForm">
                     <div asp-validation-summary="ModelOnly"></div>
                     <div class="card-body">
                         <input type="hidden" asp-for="Id" />
                         <div class="form-group">
                             <label asp-for="CategoryId">Kategori</label>
-
                             <select id="categoryList" class="form-control" asp-for="CategoryId" asp-items="@(new SelectList(Model.Categories,"Id","Name" ))"></select>
                             <span asp-validation-for="CategoryId" class="text-danger"></span>
-
                         </div>
                         <div class="form-group">
                             <label asp-for="Title" class="form-label">Başlık</label>
                             <input asp-for=Title type="text" class="form-control mb-3" id="defaultFormControlInput" placeholder="Başlık Giriniz..." aria-describedby="defaultFormControlHelp">
                             <span asp-validation-for="Title" class="text-danger"></span>
-
                         </div>
                         <div class="form-group">
                             <label asp-for="Content" class="form-label">Makale</label>
                             <textarea asp-for="Content" type="text" style="min-height:300px" class="form-control mb-3" id="myEditor" placeholder="İçerik Giriniz" aria-describedby="defaultFormControlHelp"></textarea>
                             <span asp-validation-for="Content" class="text-danger"></span>
-
                         </div>
-
+                        <div class="form-group">
+                            <label asp-for="Image.FileName" class="form-label">Mevcut Resim</label>
+                            <img id="currentImage" style="height:25em; width:25em; display:block; " class="mb-3" src="~/images/@Model.Image.FileName" alt="@Model.Title" />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Photo" class="form-label">Fotoğraf Seçin</label>
+                            <input asp-for="Photo" type="file" accept="image/*" class="form-control mb-3" aria-describedby="defaultFormControlHelp" onchange="previewImage(event)">
+                            <span asp-validation-for="Photo" class="text-danger"></span>
+                            <!-- Dosya seçimi iptal etmek için bir buton ekleyin -->
+                            <button type="button" class="btn btn-danger mb-3" id="cancelButton" style="display:none" onclick="cancelImageSelection()">Seçimi İptal Et</button>
+                        </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-success btn-block">Ekle</button>
                         </div>
                     </div>
                 </form>
-
-
             </div>
         </div>
-
-
-
     </div>
 </div>
+
+<script>
+    function previewImage(event) {
+        var reader = new FileReader();
+        reader.onload = function () {
+            var output = document.getElementById('currentImage');
+            output.src = reader.result;
+            // Dosya seçimi yapıldığında iptal butonunu görünür yap
+            document.getElementById('cancelButton').style.display = 'block';
+        };
+
+        if (event.target.files.length === 0) {
+            var oldImageSrc = '@Url.Content("~/images/" + Model.Image.FileName)';
+            output.src = oldImageSrc;
+        } else {
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    }
+
+    // Dosya seçimi iptal etmek için fonksiyon
+    function cancelImageSelection() {
+        var input = document.getElementById('Photo');
+        input.value = ''; // Dosya seçimini temizle
+        var output = document.getElementById('currentImage');
+        var oldImageSrc = '@Url.Content("~/images/" + Model.Image.FileName)';
+        output.src = oldImageSrc; // Eski fotoğrafı göster
+        // Dosya seçimi iptal edildiğinde iptal butonunu gizle
+        document.getElementById('cancelButton').style.display = 'none';
+    }
+</script>
