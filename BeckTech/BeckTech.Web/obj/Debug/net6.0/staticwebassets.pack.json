@@ -21,8 +21,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\fotografeklemetest3_38.png",
-      "PackagePath": "staticwebassets\\images\\article-images\\fotografeklemetest3_38.png"
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\CMakalesi_27.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\CMakalesi_27.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\adsadasdas_473.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\adsadasdas_473.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\amciksulu_649.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\amciksulu_649.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\fotografeklemetest3_471.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\fotografeklemetest3_471.jpg"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\fotografeklemetest_408.png",
@@ -33,8 +45,20 @@
       "PackagePath": "staticwebassets\\images\\article-images\\fotografeklemetest_956.png"
     },
     {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\userIddenemesi_338.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\userIddenemesi_338.jpg"
+    },
+    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\articleScript.js",
       "PackagePath": "staticwebassets\\js\\articleScript.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\categoryAdd.js",
+      "PackagePath": "staticwebassets\\js\\categoryAdd.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\categoryScript.js",
+      "PackagePath": "staticwebassets\\js\\categoryScript.js"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\site.js",

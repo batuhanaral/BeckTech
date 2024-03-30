@@ -100,7 +100,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         public async Task<IActionResult> Delete(Guid articleId)
         {
             var title = await articleService.SafeDeleteArticleAsync(articleId);
-            toastNotification.AddSuccessToastMessage(Messages.Article.Update(title), new ToastrOptions { Title = "Başarılı" });
+            toastNotification.AddSuccessToastMessage(Messages.Article.Delete(title), new ToastrOptions { Title = "Başarılı" });
 
             return RedirectToAction("Index", "Article", new { Area = "Admin" });
         }

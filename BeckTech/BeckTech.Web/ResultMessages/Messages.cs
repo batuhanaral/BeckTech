@@ -19,6 +19,22 @@ namespace BeckTech.Web.ResultMessages
                 return $"'{articleTitle}' başlıklı makale başarılı şekilde silindi.";
             }
         }
+
+        public static class Category
+        {
+            public static string Add(string categoryName)
+            {
+                return $"'{categoryName}' Kategori başarılı şekilde eklendi.";
+            }
+            public static string Update(string categoryName)
+            {
+                return $"'{categoryName}' Kategori makale başarılı şekilde güncellendi.";
+            }
+            public static string Delete(string categoryName)
+            {
+                return $"'{categoryName}' Kategori makale başarılı şekilde silindi.";
+            }
+        }
     }
     
 }

@@ -1,5 +1,6 @@
 ﻿using BechTech.Entity.DTO.Article;
 using BechTech.Entity.DTO.Categories;
+using BechTech.Entity.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,10 @@ namespace BeckTech.Service.Services.Abstractions
 {
     public interface ICategoryService
     {
-        public Task<List<CategoryDto>> GetAllCategoriesNonDeleted();
+        Task<List<CategoryDto>> GetAllCategoriesNonDeleted();
+        Task CreateCategoryAsync(CategoryAddDto categoryAddDto);
+        Task<string> UpdateCategoryAsync(CategoryUpdateDto categoryUpdateDto);
+        Task<string> SafeDeleteCategoryAsync(Guid categoryId);
+        Task<Category> GetCategoryByGuid(Guid id);
     }
 }
