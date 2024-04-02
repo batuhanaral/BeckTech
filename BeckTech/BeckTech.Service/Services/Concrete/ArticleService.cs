@@ -33,7 +33,7 @@ namespace BeckTech.Service.Services.Concrete
         {
             var userId = _user.GetLoggedInUserId(); //İlgili extensions metodunu çağırıp userId yi çekiyoruz
             var userEmail = _user.GetLoggedInUserEmail(); //İlgili extensions metodunu çağırıp user mail yi çekiyoruz
-
+            
             var imageUpload = await _imageHelper.Upload(articleAddDto.Title,articleAddDto.Photo,ImageType.Post);
             Image image = new(imageUpload.FullName,articleAddDto.Photo.ContentType,userEmail);
 
@@ -73,9 +73,13 @@ namespace BeckTech.Service.Services.Concrete
 
             var article = await _unitOfWork.GetRepository<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleUpdateDto.Id, x => x.Category,i=>i.Image);
 
-            if (articleUpdateDto.Photo!=null)
+            if (articleUpdateDto.Photo != null)
             {
-                _imageHelper.Delete(article.Image.FileName);
+                // Eski fotoğrafın silinmesi
+                if (!string.IsNullOrEmpty(article.Image.FileName))
+                {
+                    _imageHelper.Delete(article.Image.FileName);
+                }
 
                 var imageUpload = await _imageHelper.Upload(articleUpdateDto.Title, articleUpdateDto.Photo, ImageType.Post);
                 Image image = new(imageUpload.FullName,articleUpdateDto.Photo.ContentType,userEmail);
@@ -83,10 +87,16 @@ namespace BeckTech.Service.Services.Concrete
 
                 article.ImageId = image.Id;
             }
-
+            else
+            {
+                var getArticlesForImageId = await _unitOfWork.GetRepository<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleUpdateDto.Id, x => x.Category, i => i.Image);
+                article.ImageId = getArticlesForImageId.ImageId;
+            }
+            //mapper.Map(articleUpdateDto, article);
             article.Title = articleUpdateDto.Title;
             article.Content = articleUpdateDto.Content;
             article.CategoryId = articleUpdateDto.CategoryId;
+
             article.ModifiedDate = DateTime.Now;
             article.ModifiedBy = userEmail;
             await _unitOfWork.GetRepository<Article>().UpdateAsycn(article);

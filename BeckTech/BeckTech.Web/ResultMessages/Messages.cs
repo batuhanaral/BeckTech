@@ -28,11 +28,27 @@ namespace BeckTech.Web.ResultMessages
             }
             public static string Update(string categoryName)
             {
-                return $"'{categoryName}' Kategori makale başarılı şekilde güncellendi.";
+                return $"'{categoryName}' Kategori  başarılı şekilde güncellendi.";
             }
             public static string Delete(string categoryName)
             {
-                return $"'{categoryName}' Kategori makale başarılı şekilde silindi.";
+                return $"'{categoryName}' Kategori  başarılı şekilde silindi.";
+            }
+        }
+
+        public static class User
+        {
+            public static string Add(string userName)
+            {
+                return $"'{userName}' email adresli kullanıcı başarılı şekilde eklendi.";
+            }
+            public static string Update(string userName)
+            {
+                return $"'{userName}'email adresli kullanıcı başarılı şekilde güncellendi.";
+            }
+            public static string Delete(string userName)
+            {
+                return $"'{userName}'email adresli kullanıcı başarılı şekilde silindi.";
             }
         }
     }

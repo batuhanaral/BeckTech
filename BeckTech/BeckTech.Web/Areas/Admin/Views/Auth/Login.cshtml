@@ -110,43 +110,38 @@
                         <h4 class="mb-2">Welcome to Sneat! 👋</h4>
                         <p class="mb-4">Please sign-in to your account and start the adventure</p>
 
-                        <form asp-route="/Admin/Auth/Login"  id="formAuthentication" class="mb-3"  method="post">
-                            <div asp-validation-summary="All">
-                            </div>
+                        <!-- Form alanları -->
+                        <form id="formAuthentication" class="mb-3" method="post">
+                            <div asp-validation-summary="All"></div>
 
                             <div class="mb-3">
                                 <label asp-for="Email" for="email" class="form-label">Email </label>
-                                <input asp-for="Email" type="email"
-                                       class="form-control"
-                                       id="email"
-                                       name="email"
-                                       placeholder="Email adresinizi giriniz..."
-                                       autofocus />
-                                <span asp-validation-for="Email"></span>
+                                <input asp-for="Email" type="email" class="form-control" id="email" name="email" placeholder="Email adresinizi giriniz..." autofocus>
+                                <span asp-validation-for="Email" class="text-danger"></span> <!-- Hata mesajı için span eklendi -->
                             </div>
+
                             <div class="mb-3 form-password-toggle">
                                 <span></span>
                                 <div class="input-group input-group-merge">
-                                    <input asp-for="Password" type="password"
-                                           id="password"
-                                           class="form-control"
-                                           name="password"
-                                           placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
-                                           aria-describedby="password" />
+                                    <input asp-for="Password" type="password" id="password" class="form-control" name="password" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="password">
                                     <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
-                                    <span asp-validation-for="Password"></span>
-
+                                    <span asp-validation-for="Password" class="text-danger"></span> <!-- Hata mesajı için span eklendi -->
                                 </div>
                             </div>
+
                             <div class="mb-3">
                                 <div class="form-check">
-                                    <input asp-for="RememberMe" class="form-check-input" type="checkbox" id="remember-me" />
+                                    <input asp-for="RememberMe" class="form-check-input" type="checkbox" id="remember-me">
                                     <label asp-for="RememberMe" class="form-check-label" for="remember-me"> Remember Me </label>
                                 </div>
                             </div>
+
                             <div class="mb-3">
                                 <button class="btn btn-primary d-grid w-100" type="submit">Sign in</button>
                             </div>
+
+                            <!-- Uyarı mesajı için div eklendi -->
+                            <div id="error-message" class="text-danger"></div>
                         </form>
 
                         <p class="text-center">
@@ -186,5 +181,30 @@
     <!-- Page JS -->
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+        document.getElementById('formAuthentication').addEventListener('submit', (event) => {
+            const emailInput = document.getElementById('email');
+            const passwordInput = document.getElementById('password');
+            const errorMessage = document.getElementById('error-message');
+
+            if (emailInput.value.trim() === '' || passwordInput.value.trim() === '') {
+                event.preventDefault(); // Form submitini engelle
+
+                // Uyarı mesajını göster
+                errorMessage.innerText = 'Email ve şifre giriniz';
+
+                // Form alanlarına kırmızı çerçeve ekleyerek vurgula
+                emailInput.classList.add('is-invalid');
+                passwordInput.classList.add('is-invalid');
+            } else {
+                errorMessage.innerText = ''; // Uyarı mesajını temizle
+                // Form alanlarındaki kırmızı çerçeveyi kaldır
+                emailInput.classList.remove('is-invalid');
+                passwordInput.classList.remove('is-invalid');
+            }
+        });
+
+    </script>
+
 </body>
 </html>

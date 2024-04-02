@@ -42,9 +42,13 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(ArticleAddDto articleAddDto)
         {
+            if (articleAddDto.Photo == null)
+            {
+                ModelState.AddModelError("Photo", "Lüften Fotoğraf yükleyiniz"); // Resim yüklemesi gerektiği uyarısını ekle
+            }
             var map = mapper.Map<Article> (articleAddDto);
             var result = await validator.ValidateAsync(map);
-            if (result.IsValid)
+            if (result.IsValid && ModelState.IsValid)
             {
                 await articleService.CreateArticleAsync(articleAddDto);
                 toastNotification.AddSuccessToastMessage(Messages.Article.Add(articleAddDto.Title),new ToastrOptions { Title="Başarılı"});//başarı mesajı gönderme
@@ -79,7 +83,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
 
             if (result.IsValid)
             {
-                var title  =   await articleService.UpdateArticleAsync(articleUpdateDto);
+                var title = await articleService.UpdateArticleAsync(articleUpdateDto);
                 toastNotification.AddSuccessToastMessage(Messages.Article.Update(title), new ToastrOptions { Title = "Başarılı" });
                 return RedirectToAction("Index", "Article", new { Area = "Admin" });
 
@@ -87,6 +91,8 @@ namespace BeckTech.Web.Areas.Admin.Controllers
             else
             {
                 result.AddToModelState(this.ModelState);//başarısızsa aynı view geri döncek
+                var articleRefesh = await articleService.GetArticleWithCategoryNonDeletedAsync(articleUpdateDto.Id);
+                articleUpdateDto.Image = articleRefesh.Image;
 
             }
             var categories = await categoryService.GetAllCategoriesNonDeleted();
@@ -106,3 +112,23 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
     }
 }
+/*
+   var map = mapper.Map<Article>(articleUpdateDto);
+            var result = await validator.ValidateAsync(map);
+
+            if (result.IsValid)
+            {
+                var title  =   await articleService.UpdateArticleAsync(articleUpdateDto);
+                toastNotification.AddSuccessToastMessage(Messages.Article.Update(title), new ToastrOptions { Title = "Başarılı" });
+                return RedirectToAction("Index", "Article", new { Area = "Admin" });
+
+            }
+            else
+            {
+                result.AddToModelState(this.ModelState);//başarısızsa aynı view geri döncek
+
+            }
+            var categories = await categoryService.GetAllCategoriesNonDeleted();
+            articleUpdateDto.Categories = categories;
+            return View(articleUpdateDto);
+ */

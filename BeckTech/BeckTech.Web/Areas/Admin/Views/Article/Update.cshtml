@@ -7,8 +7,10 @@
             <div class="card mb-4">
                 <form asp-area="Admin" asp-controller="Article" asp-action="Update" method="post" enctype="multipart/form-data" id="articleForm">
                     <div asp-validation-summary="ModelOnly"></div>
+
                     <div class="card-body">
                         <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="Photo" />
                         <div class="form-group">
                             <label asp-for="CategoryId">Kategori</label>
                             <select id="categoryList" class="form-control" asp-for="CategoryId" asp-items="@(new SelectList(Model.Categories,"Id","Name" ))"></select>
@@ -26,7 +28,7 @@
                         </div>
                         <div class="form-group">
                             <label asp-for="Image.FileName" class="form-label">Mevcut Resim</label>
-                            <img id="currentImage" style="height:25em; width:25em; display:block; " class="mb-3" src="~/images/@Model.Image.FileName" alt="@Model.Title" />
+                            <img id="currentImage" style="height:25em; width:25em; display:block; " class="mb-3" src="~/images/@(Model.Image != null ? Model.Image.FileName : "id2")" alt="@Model.Title" />
                         </div>
                         <div class="form-group">
                             <label asp-for="Photo" class="form-label">Fotoğraf Seçin</label>
@@ -56,7 +58,7 @@
         };
 
         if (event.target.files.length === 0) {
-            var oldImageSrc = '@Url.Content("~/images/" + Model.Image.FileName)';
+            var oldImageSrc = '@Url.Content("~/images/" + (Model.Image != null ? Model.Image.FileName : "id2"))';
             output.src = oldImageSrc;
         } else {
             reader.readAsDataURL(event.target.files[0]);
@@ -68,7 +70,7 @@
         var input = document.getElementById('Photo');
         input.value = ''; // Dosya seçimini temizle
         var output = document.getElementById('currentImage');
-        var oldImageSrc = '@Url.Content("~/images/" + Model.Image.FileName)';
+        var oldImageSrc = '@Url.Content("~/images/" + (Model.Image != null ? Model.Image.FileName : "id2"))';
         output.src = oldImageSrc; // Eski fotoğrafı göster
         // Dosya seçimi iptal edildiğinde iptal butonunu gizle
         document.getElementById('cancelButton').style.display = 'none';

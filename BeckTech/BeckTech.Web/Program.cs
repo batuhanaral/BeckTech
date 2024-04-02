@@ -1,6 +1,7 @@
 using BechTech.Entity.Entities;
 using BeckTech.Data.Context;
 using BeckTech.Data.Extensions;
+using BeckTech.Service.Describers;
 using BeckTech.Service.Extensions;
 using Microsoft.AspNetCore.Identity;
 using NToastNotify;
@@ -27,6 +28,7 @@ builder.Services.AddIdentity<AppUser, AppRole>(opt =>
     opt.Password.RequireLowercase = false;
 })
     .AddRoleManager<RoleManager<AppRole>>()
+    .AddErrorDescriber<CustomIdentityDescriber>()
     .AddEntityFrameworkStores<BeckTechDbContext>()
     .AddDefaultTokenProviders();
 
