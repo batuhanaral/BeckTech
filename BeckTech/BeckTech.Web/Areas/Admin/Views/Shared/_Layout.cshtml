@@ -135,57 +135,74 @@
                             <div data-i18n="Analytics">Sosyal Medya Yönetimi</div>
                         </a>
                     </li>
-                    <!-- Components -->
-                    <li class="menu-header small text-uppercase"><span class="menu-header-text">Kullanıcılar</span></li>
-                    <!-- Cards -->
-                    <li class="menu-item">
-                        <a asp-area="Admin" asp-controller="User" asp-action="Index" class="menu-link">
-                            <i class="menu-icon tf-icons bx bx-user"></i>
-                            <div data-i18n="Basic">Kullanıcılar</div>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a asp-area ="Admin" asp-controller="Role" asp-action="Index" class="menu-link">
-                            <i class="menu-icon tf-icons bx bxs-captions"></i>
-                            <div data-i18n="Basic">Rol</div>
-                        </a>
-                    </li>
-
-                    <!-- Forms & Tables -->
-                    <li class="menu-header small text-uppercase"><span class="menu-header-text">Ayarlar</span></li>
                    
-                    <li class="menu-item">
-                        <a asp-area="Admin" asp-controller="Smtp" asp-action="Index" class="menu-link">
-                            <i class="menu-icon tf-icons bx bx-cog"></i>
-                            <div data-i18n="Tables">Smtp Ayarları</div>
-                        </a>
-                    </li>
+                    <!-- Components -->
+                    @{
+                        @if (User.IsInRole("Superadmin"))
+                        {
+                            <li class="menu-header small text-uppercase"><span class="menu-header-text">Kullanıcılar</span></li>
+                            <!-- Cards -->
+                            <li class="menu-item">
+                                <a asp-area="Admin" asp-controller="User" asp-action="Index" class="menu-link">
+                                    <i class="menu-icon tf-icons bx bx-user"></i>
+                                    <div data-i18n="Basic">Kullanıcılar</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a asp-area="Admin" asp-controller="Role" asp-action="Index" class="menu-link">
+                                    <i class="menu-icon tf-icons bx bxs-captions"></i>
+                                    <div data-i18n="Basic">Rol</div>
+                                </a>
+                            </li>
+                        }
+                    }
+                   
+                    @{
+                        @if (User.IsInRole("Superadmin"))
+                        {
+                            <li class="menu-header small text-uppercase"><span class="menu-header-text">Ayarlar</span></li>
 
-                    <!-- Misc -->
-                    <li class="menu-header small text-uppercase"><span class="menu-header-text">ÇÖP KUTUSU</span></li>
-                    <li class="menu-item">
-                        <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-trash"></i>
-                            <div data-i18n="Account Settings">Silinmiş Öğeler</div>
-                        </a>
-                        <ul class="menu-sub">
                             <li class="menu-item">
-                                <a asp-area="Admin" asp-controller="Article" asp-action="DeletedArticle" class="menu-link">
-                                    <div data-i18n="Account">Makale</div>
+                                <a asp-area="Admin" asp-controller="Smtp" asp-action="Index" class="menu-link">
+                                    <i class="menu-icon tf-icons bx bx-cog"></i>
+                                    <div data-i18n="Tables">Smtp Ayarları</div>
                                 </a>
                             </li>
+                        }
+                    }
+                    <!-- Forms & Tables -->
+                    @{
+                        @if (User.IsInRole("Superadmin"))
+                        {
+                            <!-- Misc -->
+                            <li class="menu-header small text-uppercase"><span class="menu-header-text">ÇÖP KUTUSU</span></li>
                             <li class="menu-item">
-                                <a asp-area="Admin" asp-controller="Category" asp-action="DeletedCategory" class="menu-link">
-                                    <div data-i18n="Notifications">Kategori</div>
+                                <a href="javascript:void(0);" class="menu-link menu-toggle">
+                                    <i class="menu-icon tf-icons bx bx-trash"></i>
+                                    <div data-i18n="Account Settings">Silinmiş Öğeler</div>
                                 </a>
-                            </li>
-                            <li class="menu-item">
-                                <a asp-area="Admin" asp-controller="SocialMedia" asp-action="DeletedMedia" class="menu-link">
-                                    <div data-i18n="Connections">Medya</div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                                <ul class="menu-sub">
+                                    <li class="menu-item">
+                                        <a asp-area="Admin" asp-controller="Article" asp-action="DeletedArticles" class="menu-link">
+                                            <div data-i18n="Account">Makale</div>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a asp-area="Admin" asp-controller="Category" asp-action="DeletedCategories" class="menu-link">
+                                            <div data-i18n="Notifications">Kategori</div>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a asp-area="Admin" asp-controller="SocialMedia" asp-action="DeletedMedias" class="menu-link">
+                                            <div data-i18n="Connections">Medya</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>  
+                        }
+                    }
+
+                   
                 </ul>
             </aside>
             <!-- / Menu -->

@@ -5,6 +5,7 @@ using BechTech.Entity.Entities;
 using BeckTech.Service.Extensions;
 using BeckTech.Web.ResultMessages;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -30,6 +31,9 @@ namespace BeckTech.Web.Areas.Admin.Controllers
             this.roleManager = roleManager;
             this.validator = validator;
         }
+
+        [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Index()
         {
             var user = await _userManager.Users.ToListAsync();
@@ -48,6 +52,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Add()
         {
             var roles = await roleManager.Roles.ToListAsync();
@@ -55,6 +60,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Add(UserAddDto userAddDto)
         {
             var map = mapper.Map<AppUser>(userAddDto);
@@ -85,6 +91,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Update(Guid userId)
         {
             var user = await _userManager.FindByIdAsync(userId.ToString());
@@ -95,6 +102,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Update(UserUpdateDto userUpdateDto)
         {
             var user = await _userManager.FindByIdAsync(userUpdateDto.Id.ToString());
@@ -143,6 +151,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Delete(Guid userId)
         {
             var user = await _userManager.FindByIdAsync(userId.ToString());

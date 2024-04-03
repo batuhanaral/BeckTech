@@ -18,6 +18,10 @@ namespace BeckTech.Web.ResultMessages
             {
                 return $"'{articleTitle}' başlıklı makale başarılı şekilde silindi.";
             }
+            public static string UndoDelete(string articleTitle)
+            {
+                return $"'{articleTitle}' başlıklı makale başarılı şekilde aktif edilmiştir.";
+            }
         }
 
         public static class Category
@@ -34,6 +38,10 @@ namespace BeckTech.Web.ResultMessages
             {
                 return $"'{categoryName}' Kategori  başarılı şekilde silindi.";
             }
+            public static string UndoDelete(string articleTitle)
+            {
+                return $"'{articleTitle}' Kategori başarılı şekilde aktif edilmiştir.";
+            }
         }
 
         public static class User
@@ -49,6 +57,10 @@ namespace BeckTech.Web.ResultMessages
             public static string Delete(string userName)
             {
                 return $"'{userName}'email adresli kullanıcı başarılı şekilde silindi.";
+            }
+            public static string UndoDelete(string articleTitle)
+            {
+                return $"'{articleTitle}' 'email adresli kullanıcı başarılı şekilde aktif edilmiştir.";
             }
         }
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z8MDC/31SsQgQr5dFv0FQquYLVXRlfUG9OwtKS2shio=",
+  "Hash": "/HYj6tWavVR2Sn2/bOvuym/Cr4l/W6vjyaSQPXkUhlY=",
   "Source": "BeckTech.Web",
   "BasePath": "_content/BeckTech.Web",
   "Mode": "Default",
@@ -493,23 +493,6 @@
       "OriginalItemSpec": "wwwroot\\images\\article-images\\gucellemetesti1_875.png"
     },
     {
-      "Identity": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\hadiiiiiiiiiiiiii_363.png",
-      "SourceId": "BeckTech.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\",
-      "BasePath": "_content/BeckTech.Web",
-      "RelativePath": "images/article-images/hadiiiiiiiiiiiiii_363.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\article-images\\hadiiiiiiiiiiiiii_363.png"
-    },
-    {
       "Identity": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\sdadasdasd_749.jpg",
       "SourceId": "BeckTech.Web",
       "SourceType": "Discovered",
@@ -576,6 +559,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\article-images\\selamtestsoninsallah_844.png"
+    },
+    {
+      "Identity": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\sontest_684.png",
+      "SourceId": "BeckTech.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\",
+      "BasePath": "_content/BeckTech.Web",
+      "RelativePath": "images/article-images/sontest_684.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\article-images\\sontest_684.png"
     },
     {
       "Identity": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\testverisibilmemkac_829.jpg",

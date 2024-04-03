@@ -117,5 +117,26 @@ namespace BeckTech.Service.Services.Concrete
             await _unitOfWork.SaveAsync();
             return article.Title;
         }
+
+        public async Task<List<ArticleDto>> GetAllArticleslWithCategoryDeletedAync()
+        {
+            var articles = await _unitOfWork.GetRepository<Article>().GetAllAsync(x => x.IsDeleted, x => x.Category);//Silinmemiş articleları getir ve categoryleri include ediyor.
+            var map = mapper.Map<List<ArticleDto>>(articles);
+
+            return map;
+        }
+
+        public async Task<string> UndoDeleteArticleAsync(Guid articleId)
+        {
+
+            var article = await _unitOfWork.GetRepository<Article>().GetByGuidAsync(articleId);
+            article.IsDeleted = false;
+            article.DeletedDate = null;
+            article.DeletedBy = null;
+
+            await _unitOfWork.GetRepository<Article>().UpdateAsycn(article);
+            await _unitOfWork.SaveAsync();
+            return article.Title;
+        }
     }
 }

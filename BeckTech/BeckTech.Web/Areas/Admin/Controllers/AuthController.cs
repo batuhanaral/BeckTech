@@ -56,12 +56,21 @@ namespace BeckTech.Web.Areas.Admin.Controllers
                 return View();
             }
         }
+      
         [HttpGet]
         [Authorize]
         public async Task<IActionResult> Logout()
         {
             await _sinInManager.SignOutAsync();
             return RedirectToAction("Index","Home",new {Area = ""});
+        }
+
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> AccessDenied()
+        {
+
+            return View();
         }
     }
 }

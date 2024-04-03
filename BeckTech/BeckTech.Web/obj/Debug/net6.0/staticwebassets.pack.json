@@ -101,10 +101,6 @@
       "PackagePath": "staticwebassets\\images\\article-images\\gucellemetesti1_875.png"
     },
     {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\hadiiiiiiiiiiiiii_363.png",
-      "PackagePath": "staticwebassets\\images\\article-images\\hadiiiiiiiiiiiiii_363.png"
-    },
-    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\sdadasdasd_749.jpg",
       "PackagePath": "staticwebassets\\images\\article-images\\sdadasdasd_749.jpg"
     },
@@ -119,6 +115,10 @@
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\selamtestsoninsallah_844.png",
       "PackagePath": "staticwebassets\\images\\article-images\\selamtestsoninsallah_844.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\sontest_684.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\sontest_684.png"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\testverisibilmemkac_829.jpg",

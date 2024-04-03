@@ -12,9 +12,12 @@ namespace BeckTech.Service.Services.Abstractions
     public interface ICategoryService
     {
         Task<List<CategoryDto>> GetAllCategoriesNonDeleted();
+        Task<List<CategoryDto>> GetAllCategoriesDeleted();
         Task CreateCategoryAsync(CategoryAddDto categoryAddDto);
         Task<string> UpdateCategoryAsync(CategoryUpdateDto categoryUpdateDto);
         Task<string> SafeDeleteCategoryAsync(Guid categoryId);
         Task<Category> GetCategoryByGuid(Guid id);
+        Task<string> UndoDeleteCategoryAsync(Guid categoryId);
     }
 }
+                      

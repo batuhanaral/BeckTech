@@ -7,6 +7,7 @@ using BeckTech.Service.Services.Abstractions;
 using BeckTech.Service.Services.Concrete;
 using BeckTech.Web.ResultMessages;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using NToastNotify;
@@ -28,7 +29,9 @@ namespace BeckTech.Web.Areas.Admin.Controllers
             this._mapper = mapper;
             this._toastNotification = toastNotification;
         }
+     
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin, Admin")]
         public async Task<IActionResult> Index()
         {
             var categories = await _categoryService.GetAllCategoriesNonDeleted();
@@ -36,12 +39,19 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
         
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin, Admin")]
+
+
+        [HttpGet]
+        [Authorize(Roles = "SuperAdmin, Admin")]
         public IActionResult Add()
         {
             return View();
         }
         
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin, Admin")]
+
         public async Task<IActionResult> Add(CategoryAddDto categoryAddDto)
         {
            var map = _mapper.Map<Category>(categoryAddDto);
@@ -61,6 +71,8 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin, Admin")]
+
         public async Task<IActionResult> AddWithAjax([FromBody] CategoryAddDto categoryAddDto)
         {
             var map = _mapper.Map<Category>(categoryAddDto);
@@ -85,6 +97,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
 
 
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin, Admin")]
         public async Task<IActionResult> Update(Guid categoryId)
         {
             var category = await _categoryService.GetCategoryByGuid(categoryId);
@@ -95,7 +108,10 @@ namespace BeckTech.Web.Areas.Admin.Controllers
             }
             return View();
         }
+       
         [HttpPost]
+        [Authorize(Roles = "SuperAdmin, Admin")]
+
         public async Task<IActionResult> Update(CategoryUpdateDto categoryUpdateDto)
         {
             var map = _mapper.Map<Category>(categoryUpdateDto);
@@ -114,10 +130,29 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> Delete(Guid categoryId)
         {
             var title = await _categoryService.SafeDeleteCategoryAsync(categoryId);
             _toastNotification.AddSuccessToastMessage(Messages.Category.Delete(title), new ToastrOptions { Title = "Başarılı" });
+
+            return RedirectToAction("Index", "Category", new { Area = "Admin" });
+        }
+
+
+        [HttpGet]
+        [Authorize(Roles = "SuperAdmin")]
+        public async Task<IActionResult> DeletedCategories()
+        {
+            var categories = await _categoryService.GetAllCategoriesDeleted();
+            return View(categories);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> UndoDelete(Guid categoryId)
+        {
+            var title = await _categoryService.UndoDeleteCategoryAsync(categoryId);
+            _toastNotification.AddSuccessToastMessage(Messages.Category.UndoDelete(title), new ToastrOptions { Title = "Başarılı" });
 
             return RedirectToAction("Index", "Category", new { Area = "Admin" });
         }
