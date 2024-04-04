@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews()
     .AddNToastNotifyToastr(new ToastrOptions()
     {
-        PositionClass = ToastPositions.TopRight,
+        PositionClass = ToastPositions.TopCenter,
         TimeOut = 2500,
         ProgressBar = true,
     })

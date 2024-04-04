@@ -3,6 +3,7 @@ using BechTech.Entity.DTO.Article;
 using BechTech.Entity.Entities;
 using BeckTech.Service.Extensions;
 using BeckTech.Service.Services.Abstractions;
+using BeckTech.Web.Consts;
 using BeckTech.Web.ResultMessages;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
@@ -30,7 +31,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles ="SuperAdmin, Admin, User")]
+        [Authorize(Roles =$"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Index()
         {
            var articles = await articleService.GetAllArticlesWithCategoryNonDeletedAsync();
@@ -39,7 +40,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Add()
         {
             var categories = await categoryService.GetAllCategoriesNonDeleted();
@@ -47,7 +48,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Add(ArticleAddDto articleAddDto)
         {
             if (articleAddDto.Photo == null)
@@ -74,7 +75,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
         
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Update(Guid articleId ) 
         {
             var article = await articleService.GetArticleWithCategoryNonDeletedAsync( articleId );
@@ -86,7 +87,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Update(ArticleUpdateDto articleUpdateDto)
         {
             var map = mapper.Map<Article>(articleUpdateDto);
@@ -114,8 +115,8 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
-         public async Task<IActionResult> Delete(Guid articleId)
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
+        public async Task<IActionResult> Delete(Guid articleId)
         {
             var title = await articleService.SafeDeleteArticleAsync(articleId);
             toastNotification.AddSuccessToastMessage(Messages.Article.Delete(title), new ToastrOptions { Title = "Başarılı" });
@@ -124,7 +125,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
         public async Task<IActionResult> DeletedArticles()
         {
             var articles = await articleService.GetAllArticleslWithCategoryDeletedAync();
@@ -132,7 +133,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
         public async Task<IActionResult> UndoDelete(Guid articleId)
         {
             var title = await articleService.UndoDeleteArticleAsync(articleId);

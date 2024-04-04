@@ -3,6 +3,8 @@ using BechTech.Entity.DTO.Article;
 using BechTech.Entity.DTO.Users;
 using BechTech.Entity.Entities;
 using BeckTech.Service.Extensions;
+using BeckTech.Service.Services.Abstractions;
+using BeckTech.Web.Consts;
 using BeckTech.Web.ResultMessages;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
@@ -17,71 +19,56 @@ namespace BeckTech.Web.Areas.Admin.Controllers
     [Area("Admin")]
     public class UserController : Controller
     {
-        private readonly UserManager<AppUser> _userManager;
-        private readonly RoleManager<AppRole> roleManager;
+        private readonly IUserService userService;
         private readonly IValidator<AppUser> validator;
+        private readonly IToastNotification toast;
         private readonly IMapper mapper;
-        private readonly IToastNotification toastNotification;
 
-        public UserController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IValidator<AppUser> validator, IMapper mapper, IToastNotification toastNotification)
+        public UserController(IUserService userService, IValidator<AppUser> validator, IToastNotification toast, IMapper mapper)
         {
-            this._userManager = userManager;
-            this.mapper = mapper;
-            this.toastNotification = toastNotification;
-            this.roleManager = roleManager;
+            this.userService = userService;
             this.validator = validator;
+            this.toast = toast;
+            this.mapper = mapper;
         }
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
         public async Task<IActionResult> Index()
         {
-            var user = await _userManager.Users.ToListAsync();
-            var map = mapper.Map<List<UserDto>>(user);
+            var result = await userService.GetAllUsersWithRoleAsync();
 
-            foreach (var userDto in map)
-            {
-                var findUser = await _userManager.FindByIdAsync(userDto.Id.ToString());
-                var role = string.Join("", await _userManager.GetRolesAsync(findUser));
+            return View(result);
 
-                userDto.Role = role;
-
-            }
-
-            return View(map);
         }
-
+        
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
         public async Task<IActionResult> Add()
         {
-            var roles = await roleManager.Roles.ToListAsync();
+            var roles = await userService.GetAllRolesAsync();
             return View(new UserAddDto { Roles = roles });
         }
 
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
         public async Task<IActionResult> Add(UserAddDto userAddDto)
         {
             var map = mapper.Map<AppUser>(userAddDto);
             var validation = await validator.ValidateAsync(map);
-            var roles = await roleManager.Roles.ToListAsync();
+            var roles = await userService.GetAllRolesAsync();
 
             if (ModelState.IsValid)
             {
-                map.UserName = userAddDto.Email;
-                var result = await _userManager.CreateAsync(map, string.IsNullOrEmpty(userAddDto.Password) ? "" : userAddDto.Password);
+                var result = await userService.CreateUserAsync(userAddDto);
                 if (result.Succeeded)
                 {
-                    var findRole = await roleManager.FindByIdAsync(userAddDto.RoleId.ToString());
-                    await _userManager.AddToRoleAsync(map, findRole.ToString());
-                    toastNotification.AddSuccessToastMessage(Messages.User.Add(userAddDto.Email), new ToastrOptions { Title = "Başarılı" });//başarı mesajı gönderme
+                    toast.AddSuccessToastMessage(Messages.User.Add(userAddDto.Email), new ToastrOptions { Title = "İşlem Başarılı" });
                     return RedirectToAction("Index", "User", new { Area = "Admin" });
                 }
                 else
                 {
                     result.AddToIdentityModelState(this.ModelState);
-
                     validation.AddToModelState(this.ModelState);
                     return View(new UserAddDto { Roles = roles });
 
@@ -91,25 +78,27 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
         public async Task<IActionResult> Update(Guid userId)
         {
-            var user = await _userManager.FindByIdAsync(userId.ToString());
-            var roles = await roleManager.Roles.ToListAsync();
+            var user = await userService.GetAppUserByIdAsync(userId);
+
+            var roles = await userService.GetAllRolesAsync();
+
             var map = mapper.Map<UserUpdateDto>(user);
             map.Roles = roles;
             return View(map);
         }
 
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
         public async Task<IActionResult> Update(UserUpdateDto userUpdateDto)
         {
-            var user = await _userManager.FindByIdAsync(userUpdateDto.Id.ToString());
+            var user = await userService.GetAppUserByIdAsync(userUpdateDto.Id);
+
             if (user != null)
             {
-                var userRole = string.Join("", await _userManager.GetRolesAsync(user));
-                var roles = await roleManager.Roles.ToListAsync();
+                var roles = await userService.GetAllRolesAsync();
                 if (ModelState.IsValid)
                 {
                     var map = mapper.Map(userUpdateDto, user);
@@ -119,60 +108,83 @@ namespace BeckTech.Web.Areas.Admin.Controllers
                     {
                         user.UserName = userUpdateDto.Email;
                         user.SecurityStamp = Guid.NewGuid().ToString();
-                        var result = await _userManager.UpdateAsync(user);
+                        var result = await userService.UpdateUserAsync(userUpdateDto);
                         if (result.Succeeded)
                         {
-                            await _userManager.RemoveFromRoleAsync(user, userRole);
-                            var findRole = await roleManager.FindByIdAsync(userUpdateDto.RoleId.ToString());
-                            await _userManager.AddToRoleAsync(user, findRole.Name);
-                            toastNotification.AddSuccessToastMessage(Messages.User.Update(userUpdateDto.Email), new ToastrOptions { Title = "Başarılı" });//başarı mesajı gönderme
+                            toast.AddSuccessToastMessage(Messages.User.Update(userUpdateDto.Email), new ToastrOptions { Title = "İşlem Başarılı" });
                             return RedirectToAction("Index", "User", new { Area = "Admin" });
                         }
                         else
                         {
                             result.AddToIdentityModelState(this.ModelState);
-                            validation.AddToModelState(this.ModelState);
-
-                            return View(new UserAddDto { Roles = roles });
-
+                            return View(new UserUpdateDto { Roles = roles });
                         }
                     }
                     else
                     {
                         validation.AddToModelState(this.ModelState);
-                        return View(new UserAddDto { Roles = roles });
-
-
+                        return View(new UserUpdateDto { Roles = roles });
                     }
                 }
             }
-            return View();
+            return NotFound();
 
         }
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
         public async Task<IActionResult> Delete(Guid userId)
         {
-            var user = await _userManager.FindByIdAsync(userId.ToString());
-            var roles = await roleManager.Roles.ToListAsync();
-            var result = await _userManager.DeleteAsync(user);
-            if (result.Succeeded)
+            var result = await userService.DeleteUserAsync(userId);
+
+            if (result.identityResult.Succeeded)
             {
-                toastNotification.AddSuccessToastMessage(Messages.User.Delete(user.Email), new ToastrOptions { Title = "Başarılı" });//başarı mesajı gönderme
+                toast.AddSuccessToastMessage(Messages.User.Delete(result.email), new ToastrOptions { Title = "İşlem Başarılı" });
                 return RedirectToAction("Index", "User", new { Area = "Admin" });
             }
             else
             {
-                result.AddToIdentityModelState(this.ModelState);
-
-                return View(new UserAddDto { Roles = roles });
-
+                result.identityResult.AddToIdentityModelState(this.ModelState);
             }
+            return NotFound();
 
 
         }
+
+        [HttpGet]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin},{RoleConsts.User}")]
+        public async Task<IActionResult> Profile()
+        {
+            var profile = await userService.GetUserProfileAsync();
+
+            return View(profile);
+        }
+        [HttpPost]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin},{RoleConsts.User}")]
+        public async Task<IActionResult> Profile(UserProfileDto userProfileDto)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await userService.UserProfileUpdateAsync(userProfileDto);
+                if (result)
+                {
+                    toast.AddSuccessToastMessage("Profil güncelleme işlemi tamamlandı", new ToastrOptions { Title = "İşlem Başarılı" });
+                    return RedirectToAction("Index", "Home", new { Area = "Admin" });
+                }
+                else
+                {
+                    var profile = await userService.GetUserProfileAsync();
+                    toast.AddErrorToastMessage("Profil güncelleme işlemi tamamlanamadı", new ToastrOptions { Title = "İşlem Başarısız" });
+                    return View(profile);
+                }
+            }
+            else
+                return NotFound();
+        }
+    
+
     }
+
 }
 /*
 

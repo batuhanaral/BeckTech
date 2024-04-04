@@ -129,6 +129,34 @@
       "PackagePath": "staticwebassets\\images\\article-images\\userIddenemesi_338.jpg"
     },
     {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_566.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\BatuhanAral_566.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_966.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\BatuhanAral_966.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\Cagatay2Aslan_508.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\Cagatay2Aslan_508.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\CagatayAslan_487.jpg",
+      "PackagePath": "staticwebassets\\images\\user-images\\CagatayAslan_487.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\CagatayAslan_875.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\CagatayAslan_875.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\CagatayAslan_947.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\CagatayAslan_947.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\CagatayAslan_970.jpg",
+      "PackagePath": "staticwebassets\\images\\user-images\\CagatayAslan_970.jpg"
+    },
+    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\articleScript.js",
       "PackagePath": "staticwebassets\\js\\articleScript.js"
     },

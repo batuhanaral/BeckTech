@@ -5,6 +5,7 @@ using BechTech.Entity.Entities;
 using BeckTech.Service.Extensions;
 using BeckTech.Service.Services.Abstractions;
 using BeckTech.Service.Services.Concrete;
+using BeckTech.Web.Consts;
 using BeckTech.Web.ResultMessages;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
@@ -31,7 +32,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
      
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Index()
         {
             var categories = await _categoryService.GetAllCategoriesNonDeleted();
@@ -39,18 +40,18 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
         
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
 
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
         public IActionResult Add()
         {
             return View();
         }
         
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
 
         public async Task<IActionResult> Add(CategoryAddDto categoryAddDto)
         {
@@ -71,7 +72,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
 
         public async Task<IActionResult> AddWithAjax([FromBody] CategoryAddDto categoryAddDto)
         {
@@ -97,7 +98,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
 
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Update(Guid categoryId)
         {
             var category = await _categoryService.GetCategoryByGuid(categoryId);
@@ -110,7 +111,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
        
         [HttpPost]
-        [Authorize(Roles = "SuperAdmin, Admin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
 
         public async Task<IActionResult> Update(CategoryUpdateDto categoryUpdateDto)
         {
@@ -130,7 +131,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
         public async Task<IActionResult> Delete(Guid categoryId)
         {
             var title = await _categoryService.SafeDeleteCategoryAsync(categoryId);
@@ -141,7 +142,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
 
 
         [HttpGet]
-        [Authorize(Roles = "SuperAdmin")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
         public async Task<IActionResult> DeletedCategories()
         {
             var categories = await _categoryService.GetAllCategoriesDeleted();
@@ -149,6 +150,8 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
+
         public async Task<IActionResult> UndoDelete(Guid categoryId)
         {
             var title = await _categoryService.UndoDeleteCategoryAsync(categoryId);

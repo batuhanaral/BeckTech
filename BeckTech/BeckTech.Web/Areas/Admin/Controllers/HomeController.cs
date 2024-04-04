@@ -1,5 +1,8 @@
-﻿using BeckTech.Service.Services.Abstractions;
+﻿using BechTech.Entity.Entities;
+using BeckTech.Service.Services.Abstractions;
+using BeckTech.Web.Consts;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BeckTech.Web.Areas.Admin.Controllers
@@ -14,7 +17,8 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         {
             this.articleService = articleService;
         }
-
+      
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin},{RoleConsts.User}")]
         public async Task<IActionResult> Index()
         {
             var articles= await articleService.GetAllArticlesWithCategoryNonDeletedAsync();

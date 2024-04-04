@@ -17,7 +17,11 @@ namespace BeckTech.Service.AutoMapper.Users
             CreateMap<AppUser, UserDto>().ReverseMap();
             CreateMap<AppUser, UserAddDto>().ReverseMap();
             CreateMap<AppUser, UserUpdateDto>().ReverseMap();
-        
+
+            CreateMap<UserProfileDto, AppUser>()
+                .ForMember(dest => dest.ImageId, opt => opt.Ignore()) // ImageId özelliğini haritalamadan çıkar
+                .ForMember(dest => dest.Image, opt => opt.Ignore())  // Image özelliğini haritalamadan çıkar
+                .ReverseMap();  // İki yönlü haritalama için ReverseMap'ı ekleyin
         }
     }
 }
