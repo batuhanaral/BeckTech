@@ -75,7 +75,18 @@ namespace BeckTech.Data.Repositories.Concretes
 
         public async Task<int> CountAsycn(Expression<Func<T, bool>> predicate = null)
         {
-            return await Table.CountAsync(predicate);
+            if (predicate is not null)
+                return await Table.CountAsync(predicate);
+            return await Table.CountAsync();
+
+        }
+        public async Task<int> SumAsync(Expression<Func<T, int>> selector, Expression<Func<T, bool>> predicate = null)
+        {
+            IQueryable<T> query = Table;
+            if (predicate != null)
+                query = query.Where(predicate);
+
+            return await query.SumAsync(selector);
         }
     }
 }

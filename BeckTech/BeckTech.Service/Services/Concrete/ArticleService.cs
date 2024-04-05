@@ -53,7 +53,9 @@ namespace BeckTech.Service.Services.Concrete
 
         public async Task<List<ArticleDto>> GetAllArticlesWithCategoryNonDeletedAsync()
         {
-            var articles = await _unitOfWork.GetRepository<Article>().GetAllAsync(x => !x.IsDeleted, x => x.Category);//Silinmemiş articleları getir ve categoryleri include ediyor.
+            var userEmail = _user.GetLoggedInUserEmail(); //İlgili extensions metodunu çağırıp user mail yi çekiyoruz
+
+            var articles = await _unitOfWork.GetRepository<Article>().GetAllAsync(x => !x.IsDeleted && x.CreatedBy== userEmail, x => x.Category);//Silinmemiş articleları getir ve categoryleri include ediyor.
             var map = mapper.Map<List<ArticleDto>>(articles);
 
             return map;

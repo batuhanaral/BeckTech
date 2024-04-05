@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\images\\article-images\\4464646464_342.png"
     },
     {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\454465465465456_320.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\454465465465456_320.jpg"
+    },
+    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\65116516_198.jpg",
       "PackagePath": "staticwebassets\\images\\article-images\\65116516_198.jpg"
     },
@@ -157,6 +161,10 @@
       "PackagePath": "staticwebassets\\images\\user-images\\CagatayAslan_970.jpg"
     },
     {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\ProfilePhoto_1881.jpg",
+      "PackagePath": "staticwebassets\\images\\user-images\\ProfilePhoto_1881.jpg"
+    },
+    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\articleScript.js",
       "PackagePath": "staticwebassets\\js\\articleScript.js"
     },
@@ -167,6 +175,10 @@
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\categoryScript.js",
       "PackagePath": "staticwebassets\\js\\categoryScript.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\dashboardIndex.js",
+      "PackagePath": "staticwebassets\\js\\dashboardIndex.js"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\site.js",

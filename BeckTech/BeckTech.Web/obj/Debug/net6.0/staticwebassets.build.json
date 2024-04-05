@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W3Uusf5Yd+5zxs8Q+UXzuOBy5JtXk0LXe0vpAc2e+nE=",
+  "Hash": "6qxZhc973bhxy14b0+Mx8FBOzn7dGSQbypiskwhM8es=",
   "Source": "BeckTech.Web",
   "BasePath": "_content/BeckTech.Web",
   "Mode": "Default",
@@ -253,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\article-images\\4464646464_342.png"
+    },
+    {
+      "Identity": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\454465465465456_320.jpg",
+      "SourceId": "BeckTech.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\",
+      "BasePath": "_content/BeckTech.Web",
+      "RelativePath": "images/article-images/454465465465456_320.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\article-images\\454465465465456_320.jpg"
     },
     {
       "Identity": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\65116516_198.jpg",
@@ -731,6 +748,23 @@
       "OriginalItemSpec": "wwwroot\\images\\user-images\\CagatayAslan_970.jpg"
     },
     {
+      "Identity": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\ProfilePhoto_1881.jpg",
+      "SourceId": "BeckTech.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\",
+      "BasePath": "_content/BeckTech.Web",
+      "RelativePath": "images/user-images/ProfilePhoto_1881.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\user-images\\ProfilePhoto_1881.jpg"
+    },
+    {
       "Identity": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\articleScript.js",
       "SourceId": "BeckTech.Web",
       "SourceType": "Discovered",
@@ -780,6 +814,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\categoryScript.js"
+    },
+    {
+      "Identity": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\dashboardIndex.js",
+      "SourceId": "BeckTech.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\",
+      "BasePath": "_content/BeckTech.Web",
+      "RelativePath": "js/dashboardIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dashboardIndex.js"
     },
     {
       "Identity": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\site.js",

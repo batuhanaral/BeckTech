@@ -31,6 +31,7 @@ namespace BeckTech.Service.Extensions
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IImageHelper, ImageHelper>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IDashBoardService,DashboardService>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();//Login olan kullanıcıyı bulmamız için
             

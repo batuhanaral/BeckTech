@@ -19,7 +19,7 @@ namespace BeckTech.Data.Repositories.Abtractions
         Task<bool> AnyAsycn(Expression<Func<T, bool>> predicate);
         Task<int> CountAsycn(Expression<Func<T, bool>> predicate=null);
 
-
+        Task<int> SumAsync(Expression<Func<T, int>> selector, Expression<Func<T, bool>> predicate = null);
 
 
     }
