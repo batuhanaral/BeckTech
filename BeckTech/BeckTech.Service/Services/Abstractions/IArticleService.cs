@@ -1,4 +1,4 @@
-﻿using BechTech.Entity.DTO.Article;
+﻿using BechTech.Entity.DTO.Articles;
 using BechTech.Entity.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,9 +10,16 @@ namespace BeckTech.Service.Services.Abstractions
 {
     public interface IArticleService
     {
+        Task<ArticleListDto> GettAllByPagingAync(Guid? categoryId, int currentPage = 1, int pageSize = 3, bool isAscending = false);
+        Task<ArticleListDto> SearchAsync(string? categoryName, string keyword, int currentPage = 1, int pageSize = 3, bool isAscending = false);
+        //Task<ArticleListDto> SearchCategoryAsync(Guid categoryId, string keyword, int currentPage = 1, int pageSize = 3, bool isAscending = false);
+        Task<ArticleListDto> SearchAuthorAsync(Guid authorId, string keyword, int currentPage = 1, int pageSize = 3, bool isAscending = false);
+
         Task<List<ArticleDto>> GetAllArticlesWithCategoryNonDeletedAsync();
         Task<List<ArticleDto>> GetAllArticleslWithCategoryDeletedAync();
         Task<ArticleDto> GetArticleWithCategoryNonDeletedAsync(Guid articleId);
+        Task<ArticleForUserDto> GetArticleWithCategoryForUserNonDeletedAsync(Guid articleId);
+
 
         Task CreateArticleAsync(ArticleAddDto articleAddDto);
         Task<string> UpdateArticleAsync(ArticleUpdateDto articleUpdateDto);

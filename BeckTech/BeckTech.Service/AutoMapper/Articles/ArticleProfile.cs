@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using BechTech.Entity.DTO.Article;
+using BechTech.Entity.DTO.Articles;
 using BechTech.Entity.Entities;
 using System;
 using System.Collections.Generic;
@@ -17,6 +17,7 @@ namespace BeckTech.Service.AutoMapper.Articles
             CreateMap<ArticleUpdateDto, Article>().ReverseMap();
             CreateMap<ArticleUpdateDto, ArticleDto>().ReverseMap();
             CreateMap<ArticleAddDto, Article>().ReverseMap();
+            CreateMap<ArticleForUserDto, Article>().ReverseMap();
         }
     }
 }

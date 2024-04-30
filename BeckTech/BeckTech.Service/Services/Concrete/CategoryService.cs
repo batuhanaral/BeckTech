@@ -35,6 +35,13 @@ namespace BeckTech.Service.Services.Concrete
             return map;
         }
 
+        public async Task<List<CategoryDto>> GetLimitedCategoriesNonDeleted()
+        {
+            var categories = await unitOfWork.GetRepository<Category>().GetAllAsync(x => !x.IsDeleted);
+            var map = mapper.Map<List<CategoryDto>>(categories);
+            return map.Take(20).ToList();
+        }
+
         public async Task CreateCategoryAsync(CategoryAddDto categoryAddDto)
         {
             var userEmail = _user.GetLoggedInUserEmail();
@@ -98,5 +105,7 @@ namespace BeckTech.Service.Services.Concrete
             await unitOfWork.SaveAsync();
             return category.Name;
         }
+
+       
     }
 }

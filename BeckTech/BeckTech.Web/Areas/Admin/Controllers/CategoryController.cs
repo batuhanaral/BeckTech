@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using BechTech.Entity.DTO.Article;
+using BechTech.Entity.DTO.Articles;
 using BechTech.Entity.DTO.Categories;
 using BechTech.Entity.Entities;
 using BeckTech.Service.Extensions;

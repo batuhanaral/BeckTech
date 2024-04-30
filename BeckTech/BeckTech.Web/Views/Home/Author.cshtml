@@ -1,0 +1,221 @@
+﻿@model ArticleListDto
+@using System.Text.RegularExpressions
+
+@{
+    ViewBag.Title = "Blog";
+
+}
+<!-- Start inner Page hero-->
+<section class="d-flex align-items-center page-hero  inner-page-hero " id="page-hero">
+    <div class="overlay-photo-image-bg parallax" data-bg-img="/stand-blog/assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
+    <div class="overlay-color" data-bg-opacity=".75"></div>
+    <div class="container">
+        <div class="hero-text-area centerd">
+            <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">Blog</h1>
+            <nav aria-label="breadcrumb ">
+                <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
+                    <li class="breadcrumb-item"><a class="breadcrumb-link" href="#0"><i class="bi bi-house icon "></i>home</a></li>
+                    <li class="breadcrumb-item active">blog</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+<!-- End inner Page hero-->
+<!-- Start blog-1-col-posts-->
+<section class="blog blog-home mega-section">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-12 col-xl-8 ">
+                <div class="posts-grid horizontal">
+                    <div class="row">
+                       
+
+
+                        @foreach (var item in Model.Articles)
+                        {
+
+                            <div class="col-12 ">
+                                <div class="post-box">
+                                    <a class="post-link" title="@item.Title" asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">
+                                        <div class="post-img-wrapper  "><img class=" parallax-img   post-img" loading="lazy" src="~/images/@item.Image.FileName" alt="@item.Title" /><span class="post-date">@item.CreatedDate.ToString("dd/MM/yyyy")     </span></div>
+                                    </a>
+                                    <div class="post-summary">
+                                        <div class="post-info">
+                                            <a class="info post-author" asp-controller="Home" asp-action="Search" asp-route-categoryName="@item.Category.Name"> <i class="bi bi-bookmark icon"></i>@item.Category.Name</a>
+                                            <a class="info post-author" asp-controller="Home" asp-action="Author" asp-route-authorId="@item.User.Id"> <i class="bi bi-person icon"></i>@item.User.FirstName @item.User.LastName</a>
+                                            <a class="info post-cat" href="#"> <i class="bi bi-eye"></i>&nbsp;@item.ViewCount</a>
+
+                                        </div>
+                                        <div class="post-text">
+                                            <a class="post-link" asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">
+                                                <h2 class="post-title"> @item.Title</h2>
+                                            </a>
+                                            @{
+                                                var contentWithoutHtml = Regex.Replace(item.Content, "<.*?>", string.Empty);
+                                            }
+                                            <p class="post-excerpt">
+                                                @if (contentWithoutHtml.Length > 150)
+                                                {
+                                                    @Html.Raw(contentWithoutHtml.Substring(0,150))
+
+                                                }
+                                                else
+                                                {
+                                                    @Html.Raw(contentWithoutHtml)
+                                                }
+                                            </p>
+                                            <a class="read-more" asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id" title="blog detay sayfası">Daha Fazla<i class="bi bi-arrow-right icon "></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        }
+
+
+                        <div class="col-12">
+                            <!-- Start pagination -->
+                            <nav class="ma-pagination">
+                                <ul class="pagination justify-content-center">
+                                    @if (Model.ShowPrevious)
+                                    {
+                                        <li class="ma-page-item">
+                                            <a class="ma-page-link " asp-route-action="Author" title="Önceki Sayfa" asp-route-currentPage="@(Model.CurrentPage-1)" asp-route-pageSize="@Model.PageSize" asp-route-authorId="@ViewBag.AuthorId">
+                                                <i class="bi bi-chevron-left icon"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="ma-page-item deactive-page-item">
+                                            <a class="ma-page-link" href="#" title="Önceki Sayfa">
+                                                <i class="bi bi-chevron-left icon"></i>
+                                            </a>
+                                        </li>
+                                    }
+
+                                    @if (Model.CurrentPage > 2)
+                                    {
+                                        <li class="ma-page-item">
+                                            <a class="ma-page-link" asp-route-action="Author" asp-route-currentPage="1" asp-route-pageSize="@Model.PageSize" asp-route-authorId="@ViewBag.AuthorId">1</a>
+                                        </li>
+                                        <li class="ma-page-item deactive-page-item">
+                                            <span class="ma-page-link">...</span>
+                                        </li>
+                                    }
+
+                                    @for (int i = Model.CurrentPage - 1; i <= Model.CurrentPage + 1 && i <= Model.TotalPages; i++)
+                                    {
+                                        if (i > 0)
+                                        {
+                                            <li class="ma-page-item @(i == Model.CurrentPage ? "active" : "")">
+                                                <a class="ma-page-link" asp-route-action="Author" asp-route-currentPage="@i" asp-route-pageSize="@Model.PageSize" asp-route-authorId="@ViewBag.AuthorId">@i</a>
+                                            </li>
+                                        }
+                                    }
+
+                                    @if (Model.CurrentPage < Model.TotalPages - 1)
+                                    {
+                                        <li class="ma-page-item deactive-page-item">
+                                            <span class="ma-page-link">...</span>
+                                        </li>
+                                        <li class="ma-page-item">
+                                            <a class="ma-page-link" asp-route-action="Author" asp-route-currentPage="@Model.TotalPages" asp-route-pageSize="@Model.PageSize" asp-route-authorId="@ViewBag.AuthorId">@Model.TotalPages</a>
+                                        </li>
+                                    }
+
+                                    @if (Model.ShowNext)
+                                    {
+                                        <li class="ma-page-item">
+                                            <a class="ma-page-link" title="Sonraki Sayfa" asp-route-action="Author" asp-route-currentPage="@(Model.CurrentPage+1)" asp-route-pageSize="@Model.PageSize" asp-route-authorId="@ViewBag.AuthorId">
+                                                <i class="bi bi-chevron-right icon"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="ma-page-item deactive-page-item">
+                                            <a class="ma-page-link" href="#" title="Sonraki Sayfa">
+                                                <i class="bi bi-chevron-right icon"></i>
+                                            </a>
+                                        </li>
+                                    }
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4 ">
+                <div class="blog-sidebar">
+                    <!--search box-->
+                    <div class="search sidebar-box">
+                        <form class="search-form" method="get" asp-controller="Home" asp-action="Search">
+                            <input class="search-input" type="search" name="keyword" placeholder="Arama yapınız...">
+                            <button class="search-btn" type="submit"><i class="bi bi-search icon"></i></button>
+                        </form>
+                    </div>
+                    <!--categories box-->
+                    @await Component.InvokeAsync("HomeCategories")
+                    <!--Recent posts  -->
+                    <div class="recent-posts sidebar-box">
+                        <h6 class="sidebar-box-title">
+                            recent posts:
+                        </h6>
+                        <ul class="sidebar-list r-posts-list ">
+                            <li class="r-post-item">
+                                <a class="r-post-link" href="#">
+                                    <div class="r-post-img-wrapper"><img class="r-post-img" loading="lazy" src="~/stand-blog/assets/images/blog/recent-posts/1.jpg" alt="recent post image"></div>
+                                    <div class="content">
+                                        <h6 class="r-post-title">this is the article title</h6><span class="r-post-date">jun, 15 2022 </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="r-post-item">
+                                <a class="r-post-link" href="#">
+                                    <div class="r-post-img-wrapper"><img class="r-post-img" loading="lazy" src="~/stand-blog/assets/images/blog/recent-posts/2.jpg" alt="recent post image"></div>
+                                    <div class="content">
+                                        <h6 class="r-post-title">this is the article title</h6><span class="r-post-date">may, 10 2022 </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="r-post-item">
+                                <a class="r-post-link" href="#">
+                                    <div class="r-post-img-wrapper"><img class="r-post-img" loading="lazy" src="~/stand-blog/assets/images/blog/recent-posts/3.jpg" alt="recent post image"></div>
+                                    <div class="content">
+                                        <h6 class="r-post-title">this is the article title</h6><span class="r-post-date">feb, 28 2022 </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="r-post-item">
+                                <a class="r-post-link" href="#">
+                                    <div class="r-post-img-wrapper"><img class="r-post-img" loading="lazy" src="~/stand-blog/assets/images/blog/recent-posts/4.jpg" alt="recent post image"></div>
+                                    <div class="content">
+                                        <h6 class="r-post-title">this is the article title</h6><span class="r-post-date">jun, 07 2022 </span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="follow-us sidebar-box">
+                        <h6 class="sidebar-box-title">
+                            follow us on:
+                        </h6>
+                        <div class="sc-wrapper dir-row sc-size-32">
+                            <ul class="sc-list">
+                                <li class="sc-item " title="Facebook"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                                <li class="sc-item " title="youtube"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
+                                <li class="sc-item " title="instagram"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-instagram sc-icon"></i></a></li>
+                                <li class="sc-item " title="twitter"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-twitter sc-icon"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End blog-1-col-posts-->

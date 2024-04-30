@@ -1,0 +1,16 @@
+﻿@model List<CategoryDto>
+<div class="cats sidebar-box">
+    <h6 class="sidebar-box-title">
+        Kategoriler:
+    </h6>
+
+    <ul class="sidebar-list cats-list  ">
+        @foreach (var category in Model)
+        {
+
+            <li class="cat-item active "><a class="cat-link active" asp-controller="Home" asp-action="Search" asp-route-categoryName="@category.Name">@(category.Name)</a></li>
+
+        }
+        
+    </ul>
+</div>

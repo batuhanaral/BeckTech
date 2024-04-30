@@ -63,6 +63,19 @@ namespace BeckTech.Web.ResultMessages
                 return $"'{articleTitle}' 'email adresli kullanıcı başarılı şekilde aktif edilmiştir.";
             }
         }
+
+        public static class Contact
+        {
+            public static string Add()
+            {
+                return " Mesajınız başarılı şekilde gönderilmiştir.";
+            }
+            public static string Delete(string nameSurname)
+            {
+                return $"'{nameSurname}'email adresli kullanıcının mesajı başarılı şekilde silindi.";
+            }
+           
+        }
     }
     
 }

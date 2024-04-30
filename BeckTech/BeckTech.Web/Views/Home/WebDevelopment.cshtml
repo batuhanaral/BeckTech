@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Web Geliştirme";
+
+}
+
+<!-- Start inner Page hero-->
+<section class="d-flex align-items-center page-hero  inner-page-hero " id="page-hero">
+    <div class="overlay-photo-image-bg parallax" data-bg-img="/stand-blog/assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
+    <div class="overlay-color" data-bg-opacity=".75"></div>
+    <div class="container">
+        <div class="hero-text-area centerd">
+            <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">Servis Detayları</h1>
+            <nav aria-label="breadcrumb ">
+                <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
+                    <li class="breadcrumb-item"><a class="breadcrumb-link" asp-action="Index"><i class="bi bi-house icon "></i>Ana Sayfa</a></li>
+                    <li class="breadcrumb-item active">Web Geliştirme</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+<!-- End inner Page hero-->
+<!-- Start inner Page hero-->
+<div class="service-single ">
+    <div class="container">
+        <div class="row">
+            <!--Start service content-->
+            <div class="col-12 col-xl-8">
+                <div class="service-content-area">
+                    <div class="featured-img-area part"><img class="feat-img img-fluid" src="~/stand-blog/assets/images/services/service-single-featured-img.jpg" alt="öne çıkan görsel"></div>
+                    <div class="service-content">
+                        <div class="part">
+                            <h2 class="service-title">Web Geliştirme Hizmetleri</h2>
+                            <p class="service-text">BeckTech olarak, işinizin ihtiyaçlarına göre özelleştirilmiş kapsamlı web geliştirme hizmetleri sunuyoruz. Ekibimiz, en son teknolojileri yenilikçi çözümlerle birleştirerek güçlü ve kullanıcı dostu web uygulamaları oluşturuyor.</p>
+                            <p class="service-text">Sıfırdan yeni bir web sitesine ihtiyacınız olsun, mevcut sitenizin yeniden tasarımına veya özel web uygulama geliştirmeye ihtiyacınız olsun, istisnai sonuçlar sunmak için gerekli uzmanlığa sahibiz.</p>
+                        </div>
+                        <div class="part">
+                            <div class="two-cols-img">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <div class="img-col"><img class="img-fluid" src="~/stand-blog/assets/images/services/service-single-img-col-1.jpg" loading="lazy" alt="hizmet tekli görseli"></div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="img-col"><img class="img-fluid" src="~/stand-blog/assets/images/services/service-single-img-col-2.jpg" loading="lazy" alt="hizmet tekli görseli"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="part">
+                            <h2 class="service-title">Bilgi Güvenliği Hizmetleri</h2>
+                            <p class="service-text">Dijital varlıklarınızın güvenliğini sağlamak son derece önemlidir. BeckTech, verilerinizi ve altyapınızı siber tehditlerden korumak için ileri düzey bilgi güvenliği hizmetleri sunmaktadır.</p>
+                            <p class="service-text">Ekibimiz sağlam güvenlik önlemleri uygular, düzenli denetimler yapar ve potansiyel risklere karşı işletmenizi korumak için sürekli destek sunar.</p>
+                        </div>
+                        @await Html.PartialAsync("_ServicesSSSPartial")
+
+                    </div>
+                </div>
+            </div>
+            <!-- Hizmet içeriğini başlat -->
+            @await Html.PartialAsync("_ServicesCategoryPartial")
+
+            <!-- End service sidebar-->
+        </div>
+    </div>
+</div>
+<!-- End inner Page hero-->

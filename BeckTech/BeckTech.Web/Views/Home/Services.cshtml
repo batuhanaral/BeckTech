@@ -1,0 +1,146 @@
+﻿@{
+    ViewBag.Title = "Hizmetlerimiz";
+
+}
+ 
+<!-- Start inner Page hero-->
+    <section class="d-flex align-items-center page-hero  inner-page-hero " id="page-hero">
+      <div class="overlay-photo-image-bg parallax" data-bg-img="/stand-blog/assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
+      <div class="overlay-color" data-bg-opacity=".75"></div>
+      <div class="container">
+        <div class="hero-text-area centerd">
+          <h1 class="hero-title  wow fadeInUp" data-wow-delay=".2s">Hizmetler </h1>
+          <nav aria-label="breadcrumb ">
+            <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
+              <li class="breadcrumb-item"><a class="breadcrumb-link" href="#0"><i class="bi bi-house icon "></i>Ana Sayfa</a></li>
+              <li class="breadcrumb-item active">Hizmetler</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- End inner Page hero-->
+     <!-- Start  services Section-->
+@await Html.PartialAsync("_ServicesHomePartial")
+<!-- End  services Section-->
+    <!-- Start  testimonials-->
+    
+    <!-- End  testimonials-->
+    <!-- Start  faq Section-->
+    <section class="faq mega-section" id="faq">
+      <div class="shape-top-left"></div>
+      <div class="shape-bottom-right"></div>
+      <div class="pattern-top-end-dir"></div>
+      <div class="pattern-bottom-start-dir"></div>
+      <div class="container">
+        <div class="sec-heading  centered ">
+          <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">SSS</span>
+            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s"><span class='hollow-text'>Sıkça </span> Sorulan Sorular </h2>
+          </div>
+        </div>
+        <!--Start Accordion List For FAQ-->
+        <div class="faq-accordion " id="accordion">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="card mb-2">
+                <div class="card-header " id="heading-1">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Hizmetinizin Kullanımı Kolay Mı?</button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-1" aria-labelledby="collapse-1" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">Evet, Beck Tech olarak kullanıcı dostu arayüzler ve detaylı kullanım kılavuzları sunarak hizmetimizi kolaylaştırıyoruz. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-2">
+                <div class="card-header " id="heading-2">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Gelecekteki Güncellemeleri Alacak Mıyım?</button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-2" aria-labelledby="collapse-2" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">Evet, hizmetlerimizde sürekli olarak güncellemeler yapar ve müşterilerimize bu güncellemeleri sunarız. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-2">
+                <div class="card-header " id="heading-3">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="true" aria-controls="collapse-3">Bu Hizmetler Benim Ülkemde Çalışıyor Mu?</button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-3" aria-labelledby="collapse-3" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">Evet, Beck Tech olarak global bir bakış açısına sahibiz ve hizmetlerimiz dünya genelinde çalışır. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card mb-2">
+                <div class="card-header " id="heading-4">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="true" aria-controls="collapse-4">Ne Kadar Ödeyeceğim?</button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-4" aria-labelledby="collapse-4" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">Fiyatlandırma hizmete ve projenin gerekliliklerine göre değişebilir. Detaylı bir fiyatlandırma için lütfen bizimle iletişime geçin. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-2">
+                <div class="card-header " id="heading-5">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="true" aria-controls="collapse-5">Başka Ücretler Var Mı?</button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-5" aria-labelledby="collapse-5" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">Hizmetlerimizle ilgili ek ücretler genellikle sözleşmede belirtilir. Sürpriz maliyetlerle karşılaşmamanız için detayları önceden paylaşırız. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-2">
+                <div class="card-header " id="heading-6">
+                  <h5 class="mb-0 faq-title">
+                    <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="true" aria-controls="collapse-6">Sözleşmeyi Nasıl İmzalayabilirim?</button>
+                  </h5>
+                </div>
+                <div class="collapse " id="collapse-6" aria-labelledby="collapse-6" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    <p class="faq-answer">Sözleşmeyi elektronik olarak imzalayabilirsiniz. İmza süreciyle ilgili ayrıntılı bilgi için müşteri temsilcimizle iletişime geçebilirsiniz. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End  faq Section-->
+    <!-- Start  take-action Section-->
+    <section class="take-action elf-section has-dark-bg" id="take-action">
+      <div class="overlay-photo-image-bg  " data-bg-img="/stand-blog/assets/images/sections-bg-images/2.jpg" data-bg-opacity=".25"> </div>
+      <div class="cta-wrapper">
+        <div class="container">
+          <div class="sec-heading centered mb-0">
+            <div class="content-area">
+              <span class="pre-title wow fadeInUp" data-wow-delay=".2s">İletişim</span>
+              <h2 class="title wow fadeInUp" data-wow-delay=".4s">Bizimle İletişim Kurun</h2>
+              <p class="subtitle wow fadeInUp" data-wow-delay=".6s">Beck Tech ile iletişime geçin ve işletmenizi dijital dünyada öne çıkarın.</p>
+            </div>
+          </div>
+          <!--Start .see-more-area-->
+          <div class="see-more-area wow fadeInUp" data-wow-delay="0.8s">
+            <a class="btn-solid cta-link" asp-action="Contact" asp-controller="Home">İletişime Geçin</a>
+          </div>
+          
+          <!--End Of .see-more-area        -->
+        </div>
+      </div>
+    </section>
+    <!-- End  take-action Section-->

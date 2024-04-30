@@ -21,6 +21,8 @@ namespace BeckTech.Data.Context
         public DbSet<Article> Articles { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Image> Images { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Bulletin> Bulletins { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

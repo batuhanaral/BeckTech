@@ -84,4 +84,14 @@
         }
         reader.readAsDataURL(file);
     });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector("form").addEventListener("submit", function (event) {
+            var currentPassword = document.getElementById("CurrentPassword").value.trim();
+            if (currentPassword === "") {
+                event.preventDefault(); // Formun gönderilmesini engelle
+                alert("Mevcut parolayı girmelisiniz!");
+            }
+        });
+    });
 </script>

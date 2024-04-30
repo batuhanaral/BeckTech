@@ -1,11 +1,18 @@
-﻿using BechTech.Entity.Entities;
+﻿using AutoMapper;
+using BechTech.Entity.DTO.Categories;
+using BechTech.Entity.DTO.Contact;
+using BechTech.Entity.Entities;
+using BeckTech.Service.Extensions;
 using BeckTech.Service.Services.Abstractions;
 using BeckTech.Service.Services.Concrete;
 using BeckTech.Web.Consts;
+using BeckTech.Web.ResultMessages;
+using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using NToastNotify;
 
 namespace BeckTech.Web.Areas.Admin.Controllers
 {
@@ -15,11 +22,19 @@ namespace BeckTech.Web.Areas.Admin.Controllers
     {
         private readonly IArticleService articleService;
         private readonly IDashBoardService dashBoardService;
+        private readonly IContactService contactService;
+        private readonly IToastNotification toastNotification;
+        private readonly IMapper mapper;
+        private readonly IValidator<Contact> validator;
 
-        public HomeController(IArticleService articleService,IDashBoardService dashBoardService)
+        public HomeController(IArticleService articleService,IDashBoardService dashBoardService, IContactService contactService,IToastNotification toastNotification,IMapper mapper, IValidator<Contact> validator)
         {
             this.articleService = articleService;
             this.dashBoardService = dashBoardService;
+            this.contactService = contactService;
+            this.toastNotification = toastNotification;
+            this.mapper = mapper;
+            this.validator = validator;
         }
 
         [HttpGet]
@@ -82,5 +97,31 @@ namespace BeckTech.Web.Areas.Admin.Controllers
             var count = await dashBoardService.GetTotalViewCountForUser();
              return Json(count); // Görüntü sayısını JSON olarak döndürüyoruz.
         }
+
+        //[HttpPost]
+        //public async Task<IActionResult> AddContact(ContactDto contactDto)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var map = mapper.Map<Contact>(contactDto);
+        //        var result = await validator.ValidateAsync(map);
+        //        if (result.IsValid) 
+        //        {
+        //            await contactService.CreateContacteAsync(contactDto);
+        //            toastNotification.AddSuccessToastMessage(Messages.Contact.Add(), new ToastrOptions { Title = "Başarılı" });//başarı mesajı gönderme
+        //            return RedirectToAction("Index", "Home");
+        //        }
+        //        else
+        //        {
+        //            result.AddToModelState(this.ModelState);//başarısızsa aynı view geri döncek
+        //            return View();
+        //        }
+                   
+
+
+        //    }
+
+        //    return View(contactDto);
+        //}
     }
 }

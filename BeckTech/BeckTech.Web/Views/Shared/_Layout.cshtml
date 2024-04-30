@@ -1,49 +1,272 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿
+<!DOCTYPE html>
+<html lang="tr">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - BeckTech.Web</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/BeckTech.Web.styles.css" asp-append-version="true" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IT Solutions &amp; Business Services Responsive HTML5 Bootstrap5  Website Template">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- fav icon -->
+    <link rel="icon" href="~/stand-blog/assets/images/fav-icon/fav-icon.png">
+
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="~/stand-blog/css/vendors/bootstrap.min.css">
+
+    <!-- animate.css file -->
+    <link rel="stylesheet" href="~/stand-blog/css/vendors/animate.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="~/stand-blog/css/vendors/swiper-bundle.min.css">
+
+    <!-- flaticon -->
+    <link rel="stylesheet" href="~/stand-blog/css/vendors/flaticon/flaticon.css">
+
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="~/stand-blog/css/vendors/all.min.css">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="~/stand-blog/css/vendors/bootstrap-icons-1.9.1/bootstrap-icons.css">
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="~/stand-blog/css/vendors/jquery.fancybox.min.css">
+
+    <!-- fonts site preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- fonts site preconnect -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Font Family -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap">
+
+    <!-- main-LTR -->
+    <link rel="stylesheet" href="~/stand-blog/css/main-LTR.css">
+    <title> BeckTech   |   @ViewBag.Title</title>
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BeckTech.Web</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+<body class=" dark-theme ">
+    <!--Start Page Header-->
+    <header class=" page-header   header-basic" id="page-header">
+
+        <div class="container">
+            <nav class="menu-navbar">
+                <div class="header-logo"><a class="logo-link" href="#"><img class="logo-img light-logo" loading="lazy" src="~/stand-blog/assets/images/logo/aaaa.png" alt="logo" /><img class="logo-img  dark-logo" loading="lazy" src="~/stand-blog/assets/images/logo/logo-dark.png" alt="logo" /></a></div>
+                <div class="links menu-wrapper ">
+                    <ul class="list-js links-list">
+                        <li class="menu-item has-sub-menu">
+                            <a class="menu-link" asp-action="Index" asp-controller="Home" >Ana Sayfa </a>
+                           
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                        <li class="menu-item"><a class="menu-link  " asp-action="AboutUs" asp-controller="Home">Hakkımızda </a></li>
+                        <li class="menu-item"><a class="menu-link  " asp-action="Services" asp-controller="Home">Hizmetlerimiz </a></li>
+                        <li class="menu-item"><a class="menu-link  " asp-action="Blog" asp-controller="Home">Blog </a></li>
+
+
+
+
+
+                        <li class="menu-item"><a class="menu-link  " asp-action="Contact" asp-controller="Home">Bize Ulaşın </a></li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - BeckTech.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                <div class="controls-box">
+                    <!--Menu Toggler button-->
+                    <div class="control  menu-toggler"><span></span><span></span><span></span></div>
+                    <!--search Icon button-->
+                    <!--Dark/Light mode button-->
+                    <div class="mode-switcher ">
+                        <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
+                        <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
+                    </div>
+                    <!--mini shoping cart-->
+                </div>
+            </nav>
         </div>
+    </header>
+    <!--End Page Header-->
+    @RenderBody()
+
+    <!-- Start  page-footer Section-->
+    <footer class="page-footer dark-color-footer" id="page-footer">
+        <div class="overlay-photo-image-bg" data-bg-img="/stand-blog/assets/images/sections-bg-images/footer-bg-1.jpg" data-bg-opacity=".25"></div>
+        <div class="container">
+            <div class="row footer-cols">
+                <div class="col-12 col-md-8 col-lg-4  footer-col ">
+                    <img class="img-fluid footer-logo" loading="lazy" src="~/stand-blog/assets/images/logo/logo-colored.png" alt="logo" />
+                    <div class="footer-col-content-wrapper">
+                        <p class="footer-text-about-us ">
+                            BeckTech, size ve işinize en uygun teknoloji çözümlerini sunmak için tutkuyla çalışan bir şirkettir. Uzman ekibimiz, yenilikçi ve güvenilir çözümler sunarak, hedeflerinize ulaşmanıza yardımcı olmaya hazırdır.
+
+                        </p>
+                    </div>
+                   
+                </div>
+                <div class="col-6 col-lg-2  footer-col ">
+                    <h2 class=" footer-col-title    ">Faydalı Bağlantılar</h2>
+                    <div class="footer-col-content-wrapper">
+                        <ul class="footer-menu ">
+                            <li class="footer-menu-item">
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://www.tubitak.gov.tr/">TÜBİTAK</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://www.btk.gov.tr/">BTK</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://teknopark.sanayi.gov.tr/"> TEGEP</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="https://www.tuba.gov.tr/">TÜBA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 footer-col ">
+                    <h2 class=" footer-col-title    ">Kaynaklar</h2>
+                    <div class="footer-col-content-wrapper">
+                        <ul class="footer-menu">
+                            <li class="footer-menu-item">
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" asp-action="Contact" asp-controller="Home">İletişim</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" asp-action="Services" asp-controller="Home">Hizmetler</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link"asp-action="Blog" asp-controller="Home">Blog</a>
+                            </li>
+                            <li class="footer-menu-item">
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" asp-action="AboutUs" asp-controller="Home">Hakkımızda</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12     col-lg-4 footer-col ">
+                    <h2 class=" footer-col-title    ">İletişim Bilgileri</h2>
+                    <div class="footer-col-content-wrapper">
+                        <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase  info" href="mailto:example@support.com">info@becktech.com.tr</a></div>
+                        <div class="contact-info-card"><i class="bi bi-geo-alt icon"></i><span class="text-lowercase  info">Odtü Teknopark </span></div>
+                        <!-- <div class="contact-info-card"><i class="bi bi-phone icon"></i><a class="info" href="tel:+20123456789">+20123456789  </a></div> -->
+                        <div class="contact-info-card">
+                            <div class="social-icons">
+                                <div class="sc-wrapper dir-row sc-size-32">
+                                    <ul class="sc-list">
+                                        <li class="sc-item " title="Facebook"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                                        <li class="sc-item " title="youtube"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
+                                        <li class="sc-item " title="instagram"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-instagram sc-icon"></i></a></li>
+                                        <li class="sc-item " title="twitter"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-twitter sc-icon"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+@*         <div class="copyrights ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex justify-content-start">
+                        <p class="creadits">
+
+
+                            &copy; 2024
+                            Created by:
+
+                            <a class="link" href="#0">BeckTech</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex justify-content-end">
+                        <div class="terms-links">
+                            <a href="#0">Kullanım Koşulları </a>
+                            | <a href="#0" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal">Gizlilik Politikası</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> *@
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- End  page-footer Section-->
+    <!-- Start loading-screen Component-->
+    <div class="loading-screen" id="loading-screen"><span class="bar top-bar"></span><span class="bar down-bar"></span><span class="progress-line"></span><span class="loading-counter"> </span></div>
+    <!-- End loading-screen Component-->
+    <!-- Start back-to-top Button-->
+    <div class="back-to-top" id="back-to-top">
+        <i class="bi bi-arrow-up icon "></i>
+    </div>
+    <!-- End back-to-top Button-->
+    <!-- Start privacy-policy-modal-->
+    <div class="modal privacy-policy-modal fade" id="privacyPolicyModal" aria-labelledby="PrivacyPolicyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl ">
+            <div class="modal-content text-dark">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="PrivacyPolicyModalLabel">Privacy Policy Modal Title</h2>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="content">
+                        <h4>privacy policy item Title goes here </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                    </div>
+                    <div class="content">
+                        <h4>privacy policy item Title goes here </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                    </div>
+                    <div class="content">
+                        <h4>privacy policy item Title goes here </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                    </div>
+                    <div class="content">
+                        <h4>privacy policy item Title goes here </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                    </div>
+                    <div class="content">
+                        <h4>privacy policy item Title goes here </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                    </div>
+                    <div class="content">
+                        <h4>privacy policy item Title goes here </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-solid" type="button" data-bs-dismiss="modal" aria-label="Close">Click to close</button>
+                    <button class="btn-outline" type="button">Do somthing else</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End privacy-policy-modal-->
+    <!--     JQuery     -->
+    <script src="~/stand-blog/js/vendors/jquery-3.6.1.min.js"></script>
+
+    <!--     appear     -->
+    <script src="~/stand-blog/js/vendors/appear.min.js"></script>
+
+    <!--     bootstrap     -->
+    <script src="~/stand-blog/js/vendors/bootstrap.bundle.min.js"></script>
+
+    <!--     countTo     -->
+    <script src="~/stand-blog/js/vendors/jquery.countTo.js"></script>
+
+    <!--     wow     -->
+    <script src="~/stand-blog/js/vendors/wow.min.js"></script>
+
+    <!--     swiper     -->
+    <script src="~/stand-blog/js/vendors/swiper-bundle.min.js"></script>
+
+    <!--     particles     -->
+    <script src="~/stand-blog/js/vendors/particles.min.js"></script>
+
+    <!--     Vanilla-tilt     -->
+    <script src="~/stand-blog/js/vendors/vanilla-tilt.min.js"></script>
+
+    <!--     isotope     -->
+    <script src="~/stand-blog/js/vendors/isotope-min.js"></script>
+
+    <!--     fancybox     -->
+    <script src="~/stand-blog/js/vendors/jquery.fancybox.min.js"></script>
+
+    <!--     main     -->
+    <script src="~/stand-blog/js/main.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
