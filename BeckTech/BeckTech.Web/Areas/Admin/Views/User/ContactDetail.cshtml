@@ -1,0 +1,82 @@
+﻿@model ContactDto
+<div class=" container-xxl flex-grow-1 container-p-y">
+
+    <div class="col-xxl">
+        <div class="card mb-4">
+            <div class="card-header d-flex align-items-center justify-content-between">
+                <h5 class="mb-0">Gelen Mesaj</h5>
+                <small class="text-muted float-end">Gelen Mesaj</small>
+            </div>
+            <div class="card-body">
+                <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Ad Soyad</label>
+                    <div class="col-sm-10">
+                        <div class="input-group input-group-merge">
+                            <span class="input-group-text">
+                                <i class="bx bx-user"></i>
+                            </span>
+                            <input type="text"
+                                   class="form-control"
+                                   value="@Model.NameSurname"
+                                   aria-label="John Doe"
+                                   readonly />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <div class="input-group input-group-merge">
+                            <span class="input-group-text">
+                                <i class="bx bx-envelope"></i>
+                            </span>
+                            <input type="text"
+                                   class="form-control"
+                                   value="@Model.Email"
+                                   aria-label="john.doe@example.com"
+                                   readonly />
+                        </div>
+                        <div class="form-text">You can use letters, numbers & periods</div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Başlık</label>
+                    <div class="col-sm-10">
+                        <div class="input-group input-group-merge">
+                            <span class="input-group-text">
+                                <i class="bx bx-captions"></i>
+                            </span>
+                            <input type="text"
+                                   class="form-control"
+                                   value="@Model.Subject"
+                                   aria-label="ACME Inc."
+                                   readonly />
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mb-3">
+                    <label class="col-sm-2 form-label">Message</label>
+                    <div class="col-sm-10">
+                        <div class="input-group input-group-merge">
+                            <span class="input-group-text">
+                                <i class="bx bx-comment"></i>
+                            </span>
+                            <textarea class="form-control"
+                                      aria-label="Hi, Do you have a moment to talk Joe?"
+                                      readonly>@Model.Message</textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="btn btn-danger btn-sm" data-id="@Model.Id" asp-area="Admin" asp-controller="User" asp-action="ContactDelete" asp-route-contactId="@Model.Id">
+                    <i class="bx bxs-minus-circle"></i>
+                    Sil
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

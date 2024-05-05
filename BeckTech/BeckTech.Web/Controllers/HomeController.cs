@@ -21,8 +21,10 @@ namespace BeckTech.Web.Controllers
         private readonly IMapper mapper;
         private readonly IToastNotification toastNotification;
         private readonly IArticleService articleService;
+        private readonly IHttpContextAccessor httpContextAccessor;
+        private readonly IVisitorService visitorService;
 
-        public HomeController(ILogger<HomeController> logger, IContactService contactService, IValidator<Contact> validator, IMapper mapper, IToastNotification toastNotification,IArticleService articleService)
+        public HomeController(ILogger<HomeController> logger, IContactService contactService, IValidator<Contact> validator, IMapper mapper, IToastNotification toastNotification,IArticleService articleService,IHttpContextAccessor httpContextAccessor,IVisitorService visitorService)
         {
             _logger = logger;
             this.contactService = contactService;
@@ -30,6 +32,8 @@ namespace BeckTech.Web.Controllers
             this.mapper = mapper;
             this.toastNotification = toastNotification;
             this.articleService = articleService;
+            this.httpContextAccessor = httpContextAccessor;
+            this.visitorService = visitorService;
         }
 
         public async Task<IActionResult> Index()
@@ -67,7 +71,7 @@ namespace BeckTech.Web.Controllers
         }
         public async Task<IActionResult> Detail(Guid id)
         {
-            var article = await articleService.GetArticleWithCategoryForUserNonDeletedAsync(id);
+            var article = await visitorService.AddVisitor(id); 
             return View(article);
         }
 
@@ -129,10 +133,13 @@ namespace BeckTech.Web.Controllers
             result.AddToModelState(this.ModelState);//başarısızsa aynı view geri döncek
             return View();
         }
-     
 
 
 
+        public IActionResult Error1(int? code)
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

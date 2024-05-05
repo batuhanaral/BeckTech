@@ -115,7 +115,7 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
         public async Task<IActionResult> Delete(Guid articleId)
         {
             var title = await articleService.SafeDeleteArticleAsync(articleId);

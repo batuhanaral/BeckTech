@@ -88,5 +88,54 @@ namespace BeckTech.Data.Repositories.Concretes
 
             return await query.SumAsync(selector);
         }
+
+
+
+        public async Task<List<T>> GetTop3Async(Expression<Func<T, int>> selector, Expression<Func<T, bool>> predicate = null, params Expression<Func<T, object>>[] includeProperties)
+        {
+            IQueryable<T> query = Table;
+
+            if (predicate != null)
+                query = query.Where(predicate);
+
+            if (includeProperties.Any())
+            {
+                foreach (var item in includeProperties)
+                {
+                    query = query.Include(item);
+                }
+            }
+
+            query = query.OrderByDescending(selector).Take(3);
+
+            return await query.ToListAsync();
+        }
+
+
+        public async Task<List<T>> GetAll2Async(Expression<Func<T, bool>> predicate = null,
+                                       Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+                                       int? skip = null,
+                                       int? take = null,
+                                       params Expression<Func<T, object>>[] includeProperties)
+        {
+            IQueryable<T> query = Table;
+            if (predicate != null)
+                query = query.Where(predicate);
+
+            if (includeProperties.Any())
+                foreach (var item in includeProperties)
+                    query = query.Include(item);
+
+            if (orderBy != null)
+                query = orderBy(query);
+
+            if (skip.HasValue)
+                query = query.Skip(skip.Value);
+
+            if (take.HasValue)
+                query = query.Take(take.Value);
+
+            return await query.ToListAsync();
+        }
     }
 }

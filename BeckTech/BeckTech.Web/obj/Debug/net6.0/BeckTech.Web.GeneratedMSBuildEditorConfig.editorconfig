@@ -72,6 +72,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/batuh/OneDrive/Belgeler/GitHub/BeckTech/BeckTech/BeckTech.Web/Areas/Admin/Views/User/ContactDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxDb250YWN0RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batuh/OneDrive/Belgeler/GitHub/BeckTech/BeckTech/BeckTech.Web/Areas/Admin/Views/User/GetContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxHZXRDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/batuh/OneDrive/Belgeler/GitHub/BeckTech/BeckTech/BeckTech.Web/Areas/Admin/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -132,6 +140,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaWdpdGFsTWFya2V0aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/batuh/OneDrive/Belgeler/GitHub/BeckTech/BeckTech/BeckTech.Web/Views/Home/Error1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvcjEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/batuh/OneDrive/Belgeler/GitHub/BeckTech/BeckTech/BeckTech.Web/Views/Home/EymenDogan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFeW1lbkRvZ2FuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -166,6 +178,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/batuh/OneDrive/Belgeler/GitHub/BeckTech/BeckTech/BeckTech.Web/Views/Shared/Components/HomeCategories/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSG9tZUNhdGVnb3JpZXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batuh/OneDrive/Belgeler/GitHub/BeckTech/BeckTech/BeckTech.Web/Views/Shared/Components/MostReadDetailPage/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTW9zdFJlYWREZXRhaWxQYWdlXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/batuh/OneDrive/Belgeler/GitHub/BeckTech/BeckTech/BeckTech.Web/Views/Shared/Components/MostRead/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTW9zdFJlYWRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/batuh/OneDrive/Belgeler/GitHub/BeckTech/BeckTech/BeckTech.Web/Views/Shared/Error.cshtml]

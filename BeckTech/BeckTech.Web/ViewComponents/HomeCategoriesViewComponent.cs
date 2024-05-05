@@ -16,5 +16,6 @@ namespace BeckTech.Web.ViewComponents
             var categories = await categoryService.GetLimitedCategoriesNonDeleted();
             return View( categories );
         }
+        
     }
 }

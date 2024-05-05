@@ -50,22 +50,22 @@
 
         <div class="container">
             <nav class="menu-navbar">
-                <div class="header-logo"><a class="logo-link" href="#"><img class="logo-img light-logo" loading="lazy" src="~/stand-blog/assets/images/logo/aaaa.png" alt="logo" /><img class="logo-img  dark-logo" loading="lazy" src="~/stand-blog/assets/images/logo/logo-dark.png" alt="logo" /></a></div>
+                <div class="header-logo"><a class="logo-link" href="#"><img class="logo-img light-logo" loading="lazy" src="~/stand-blog/assets/images/logo/aaaa.png" alt="logo" /><img class="logo-img  dark-logo" loading="lazy" src="~/stand-blog/assets/images/logo/aaaa.png" alt="logo" /></a></div>
                 <div class="links menu-wrapper ">
                     <ul class="list-js links-list">
                         <li class="menu-item has-sub-menu">
                             <a class="menu-link" asp-action="Index" asp-controller="Home" >Ana Sayfa </a>
                            
                         </li>
-                        <li class="menu-item"><a class="menu-link  " asp-action="AboutUs" asp-controller="Home">Hakkımızda </a></li>
-                        <li class="menu-item"><a class="menu-link  " asp-action="Services" asp-controller="Home">Hizmetlerimiz </a></li>
+                        <li class="menu-item"><a class="menu-link  " asp-route="Hakkımızda">Hakkımızda </a></li>
+                        <li class="menu-item"><a class="menu-link  " asp-route="Hizmetlerimiz">Hizmetlerimiz </a></li>
                         <li class="menu-item"><a class="menu-link  " asp-action="Blog" asp-controller="Home">Blog </a></li>
 
 
 
 
 
-                        <li class="menu-item"><a class="menu-link  " asp-action="Contact" asp-controller="Home">Bize Ulaşın </a></li>
+                        <li class="menu-item"><a class="menu-link  " asp-route="İletişim">Bize Ulaşın </a></li>
                     </ul>
                 </div>
                 <div class="controls-box">

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BechTech.Entity.DTO.Articles;
 using BechTech.Entity.DTO.Contact;
 using BechTech.Entity.Entities;
 using BeckTech.Data.UnitOfWorks;
@@ -46,6 +47,18 @@ namespace BeckTech.Service.Services.Concrete
             var map = mapper.Map<List<ContactDto>>(contacts);
             return map;
         }
+
+
+        public async Task<ContactDto> GetContactNonDeletedAsync(Guid contactId)
+        {
+            var contact = await _unitOfWork.GetRepository<Contact>().GetAsync(x => !x.IsDeleted && x.Id == contactId);
+            var map = mapper.Map<ContactDto>(contact);
+
+            return map;
+        }
+
+
+
 
         public async Task<string> SafeDeleteContactAsync(Guid contactId)
         {

@@ -23,13 +23,15 @@ namespace BeckTech.Web.Areas.Admin.Controllers
         private readonly IValidator<AppUser> validator;
         private readonly IToastNotification toast;
         private readonly IMapper mapper;
+        private readonly IContactService contactservice;
 
-        public UserController(IUserService userService, IValidator<AppUser> validator, IToastNotification toast, IMapper mapper)
+        public UserController(IUserService userService, IValidator<AppUser> validator, IToastNotification toast, IMapper mapper,IContactService contactservice)
         {
             this.userService = userService;
             this.validator = validator;
             this.toast = toast;
             this.mapper = mapper;
+            this.contactservice = contactservice;
         }
 
         [HttpGet]
@@ -181,7 +183,51 @@ namespace BeckTech.Web.Areas.Admin.Controllers
             else
                 return NotFound();
         }
-    
+
+
+        [HttpGet]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin},{RoleConsts.User}")]
+        public async Task<IActionResult> GetContact()
+        {
+            var contacts = await contactservice.GetAllContactNonDeletedAsync();
+            return View(contacts);
+        }
+
+
+        [HttpGet]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
+        public async Task<IActionResult> ContactDelete(Guid contactId)
+        {
+            var result = await contactservice.SafeDeleteContactAsync(contactId);
+
+            if (result!=null)
+            {
+                toast.AddSuccessToastMessage(Messages.Contact.Delete(result), new ToastrOptions { Title = "İşlem Başarılı" });
+                return RedirectToAction("GetContact", "User", new { Area = "Admin" });
+            }
+            else
+            {
+                toast.AddErrorToastMessage(Messages.Contact.ErrorDelete(result), new ToastrOptions { Title = "İşlem Başarısız" });
+                return RedirectToAction("GetContact", "User", new { Area = "Admin" });
+            }
+
+
+        }
+
+        [HttpGet]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin}")]
+        public async Task<IActionResult> ContactDetail(Guid contactId)
+        {
+            var contact = await contactservice.GetContactNonDeletedAsync(contactId);
+
+            return View(contact);
+
+
+
+
+        }
+
+
 
     }
 

@@ -3,13 +3,17 @@ using BeckTech.Data.Context;
 using BeckTech.Data.Extensions;
 using BeckTech.Service.Describers;
 using BeckTech.Service.Extensions;
+using BeckTech.Web.Filters.ArticleVisitors;
 using Microsoft.AspNetCore.Identity;
 using NToastNotify;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews()
+builder.Services.AddControllersWithViews(opt =>
+{
+    opt.Filters.Add<ArticleVisitorFilter>();
+})
     .AddNToastNotifyToastr(new ToastrOptions()
     {
         PositionClass = ToastPositions.TopCenter,
@@ -57,6 +61,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+app.UseStatusCodePagesWithReExecute("/Home/Error1", "?code={0}");
 app.UseNToastNotify();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -76,6 +81,40 @@ app.UseEndpoints(endpoints =>
     pattern: "Admin/{controller=Home}/{action=Index}/{id?}"
     );
     endpoints.MapDefaultControllerRoute();
+
+    endpoints.MapControllerRoute(
+            name: "BatuhanAral",
+            pattern: "BatuhanAral",
+            defaults: new { controller = "Home", action = "BatuhanAral" }
+        );
+
+    endpoints.MapControllerRoute(
+           name: "CagatayArslan",
+           pattern: "CagatayArslan",
+           defaults: new { controller = "Home", action = "CagatayArslan" }
+       );
+
+    endpoints.MapControllerRoute(
+           name: "EymenDogan",
+           pattern: "EymenDogan",
+           defaults: new { controller = "Home", action = "EymenDogan" }
+       );
+    endpoints.MapControllerRoute(
+          name: "Ýletiþim",
+          pattern: "Ýletiþim",
+          defaults: new { controller = "Home", action = "Contact" }
+      );
+    endpoints.MapControllerRoute(
+         name: "Hakkýmýzda",
+         pattern: "Hakkýmýzda",
+         defaults: new { controller = "Home", action = "AboutUs" }
+     );
+    endpoints.MapControllerRoute(
+         name: "Hizmetlerimiz",
+         pattern: "Hizmetlerimiz",
+         defaults: new { controller = "Home", action = "Services" }
+     );
+
 });
 
 app.Run();

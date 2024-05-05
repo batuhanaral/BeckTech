@@ -63,6 +63,8 @@ namespace BeckTech.Service.Services.Concrete
             return map;
         }
 
+
+
         public async Task<ArticleDto> GetArticleWithCategoryNonDeletedAsync(Guid articleId)
         {
             var articles = await _unitOfWork.GetRepository<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleId, x => x.Category,i=>i.Image);//İlgili article getir ve categorysini include ediyor.
@@ -124,7 +126,7 @@ namespace BeckTech.Service.Services.Concrete
 
         public async Task<List<ArticleDto>> GetAllArticleslWithCategoryDeletedAync()
         {
-            var articles = await _unitOfWork.GetRepository<Article>().GetAllAsync(x => x.IsDeleted, x => x.Category);//Silinmemiş articleları getir ve categoryleri include ediyor.
+            var articles = await _unitOfWork.GetRepository<Article>().GetAllAsync(x => x.IsDeleted, x => x.Category);
             var map = mapper.Map<List<ArticleDto>>(articles);
 
             return map;
@@ -263,5 +265,36 @@ namespace BeckTech.Service.Services.Concrete
 
             return map;
         }
+
+
+        public async Task<List<ArticleDto>> GetMostReadArticleslWithCategoryDeletedAync()
+        {
+            var articles = await _unitOfWork.GetRepository<Article>()
+                .GetAll2Async(x => !x.IsDeleted,  
+                             orderBy: q => q.OrderByDescending(x => x.ViewCount),
+                             take: 3,
+                             includeProperties: i=>i.Image
+                             
+                             );
+            var map = mapper.Map<List<ArticleDto>>(articles);
+
+            return map;
+        }
+
+        public async Task<List<ArticleDto>> GetMostReadArticleslWithCategoryDeletedAync2()
+        {
+            var articles = await _unitOfWork.GetRepository<Article>()
+                .GetAll2Async(x => !x.IsDeleted,
+                             orderBy: q => q.OrderByDescending(x => x.ViewCount),
+                             take: 3,
+                             includeProperties: i => i.Image
+
+                             );
+            var map = mapper.Map<List<ArticleDto>>(articles);
+
+            return map;
+        }
+
+
     }
 }

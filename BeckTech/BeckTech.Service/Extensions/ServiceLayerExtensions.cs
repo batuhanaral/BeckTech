@@ -33,6 +33,7 @@ namespace BeckTech.Service.Extensions
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IDashBoardService,DashboardService>();
             services.AddScoped<IContactService,ContactService>();
+            services.AddScoped<IVisitorService,VisitorService>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();//Login olan kullanıcıyı bulmamız için
             

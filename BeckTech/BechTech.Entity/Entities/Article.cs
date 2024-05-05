@@ -38,6 +38,7 @@ namespace BechTech.Entity.Entities
         public Category Category { get; set; }
         public Image Image { get; set; }
         public AppUser User { get; set; }
+        public ICollection<ArticleVisitor> ArticleVisitors { get; set; }
 
     }
 }

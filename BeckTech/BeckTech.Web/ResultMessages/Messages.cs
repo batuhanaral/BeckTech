@@ -72,9 +72,12 @@ namespace BeckTech.Web.ResultMessages
             }
             public static string Delete(string nameSurname)
             {
-                return $"'{nameSurname}'email adresli kullanıcının mesajı başarılı şekilde silindi.";
+                return $"'{nameSurname}'isimli kullanıcının mesajı başarılı şekilde silindi.";
             }
-           
+            public static string ErrorDelete(string nameSurname)
+            {
+                return $"'{nameSurname}'isimli kullanıcının mesajı silinirken hata oluştu.";
+            }
         }
     }
     

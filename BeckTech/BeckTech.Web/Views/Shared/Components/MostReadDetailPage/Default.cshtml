@@ -1,0 +1,24 @@
+﻿@model List<ArticleDto>
+
+
+
+<div class="other-posts panel">
+    <h6 class="panel-title">Çok Okunanlar</h6>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-12 col-sm-4 mb-3">
+                <div class="prev-post">
+                    <a class="other-post-link" asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">
+                        <div class="other-post-img" title="@item.Title">
+                            <img class="img-fluid" loading="lazy" src="~/images/@item.Image.FileName" alt="@item.Title">
+                        </div>
+                        <h6 class="other-post-title">@item.Title</h6>
+                    </a>
+                </div>
+            </div>
+        }
+        
+        
+    </div>
+</div>

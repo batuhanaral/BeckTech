@@ -12,6 +12,7 @@ namespace BeckTech.Service.Services.Abstractions
     {
         Task<bool> CreateContacteAsync(ContactDto contactDto);
         Task<List<ContactDto>> GetAllContactNonDeletedAsync();
+        Task<ContactDto> GetContactNonDeletedAsync(Guid contactId);
         Task<string> SafeDeleteContactAsync(Guid contactId);
 
     }

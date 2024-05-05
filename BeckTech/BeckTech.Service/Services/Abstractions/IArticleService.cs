@@ -25,7 +25,8 @@ namespace BeckTech.Service.Services.Abstractions
         Task<string> UpdateArticleAsync(ArticleUpdateDto articleUpdateDto);
         Task<string> SafeDeleteArticleAsync(Guid articleId);
         Task<string> UndoDeleteArticleAsync(Guid articleId);
-
+        Task<List<ArticleDto>> GetMostReadArticleslWithCategoryDeletedAync();
+        Task<List<ArticleDto>> GetMostReadArticleslWithCategoryDeletedAync2();
 
     }
 }
