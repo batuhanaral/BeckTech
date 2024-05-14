@@ -4,11 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="IT Solutions &amp; Business Services Responsive HTML5 Bootstrap5  Website Template">
+
+    <meta name="description" content="BeckTech, yenilikçi yazılım çözümleri ve teknoloji hizmetleri sunarak işletmelerin dijital dönüşümünü destekliyor. Uzman ekibimizle birlikte, müşteri odaklı çözümler üreterek işletmelerin rekabet gücünü artırıyoruz. Yazılım geliştirme, web tasarımı, SEO danışmanlığı ve dijital pazarlama konularında uzmanız. Blogumuzda bu konularda güncel içerikler ve ipuçları bulabilirsiniz." />
+    <meta name="author" content="BeckTech">
+    <meta name="robots" content="index,follow">
+    <meta name="publisher" content="BeckTech">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
+    <meta http-equiv="Content-Security-Policy" content="default-src https:">
 
     <!-- fav icon -->
-    <link rel="icon" href="~/stand-blog/assets/images/fav-icon/fav-icon.png">
+    <link rel="icon" href="~/stand-blog/assets/images/fav-icon/logo.ico">
 
     <!-- bootstarp -->
     <link rel="stylesheet" href="~/stand-blog/css/vendors/bootstrap.min.css">
@@ -45,27 +51,26 @@
     <title> BeckTech   |   @ViewBag.Title</title>
 </head>
 <body class=" dark-theme ">
-    <!--Start Page Header-->
-    <header class=" page-header   header-basic" id="page-header">
 
+    <header class=" page-header   inner-page-header header-basic" id="page-header">
+        <div class="header-search-box">
+            <div class="close-search"></div>
+           
+        </div>
         <div class="container">
             <nav class="menu-navbar">
-                <div class="header-logo"><a class="logo-link" href="#"><img class="logo-img light-logo" loading="lazy" src="~/stand-blog/assets/images/logo/aaaa.png" alt="logo" /><img class="logo-img  dark-logo" loading="lazy" src="~/stand-blog/assets/images/logo/aaaa.png" alt="logo" /></a></div>
+                <div class="header-logo"><a class="logo-link" asp-action="Index" asp-controller="Home"><img class="logo-img light-logo" loading="lazy" src="~/stand-blog/assets/images/logo/aaaab.png" alt="logo" /><img class="logo-img  dark-logo" loading="lazy" src="~/stand-blog/assets/images/logo/aaaab.png" alt="logo" /></a></div>
                 <div class="links menu-wrapper ">
                     <ul class="list-js links-list">
                         <li class="menu-item has-sub-menu">
-                            <a class="menu-link" asp-action="Index" asp-controller="Home" >Ana Sayfa </a>
-                           
+                            <a class="menu-link" asp-action="Index" asp-controller="Home" title="Ana Sayfa">Ana Sayfa </a>
+
                         </li>
-                        <li class="menu-item"><a class="menu-link  " asp-route="Hakkımızda">Hakkımızda </a></li>
-                        <li class="menu-item"><a class="menu-link  " asp-route="Hizmetlerimiz">Hizmetlerimiz </a></li>
-                        <li class="menu-item"><a class="menu-link  " asp-action="Blog" asp-controller="Home">Blog </a></li>
+                        <li class="menu-item"><a class="menu-link  " title="Hakkımızda" asp-route="Hakkımızda">Hakkımızda </a></li>
+                        <li class="menu-item"><a class="menu-link  " title="Hizmetlerimiz" asp-route="Hizmetlerimiz">Hizmetlerimiz </a></li>
+                        <li class="menu-item"><a class="menu-link  " title="Blog" asp-action="Blog" asp-controller="Home">Blog </a></li>
 
-
-
-
-
-                        <li class="menu-item"><a class="menu-link  " asp-route="İletişim">Bize Ulaşın </a></li>
+                        <li class="menu-item"><a class="menu-link  " title="İletişim" asp-route="İletişim">Bize Ulaşın </a></li>
                     </ul>
                 </div>
                 <div class="controls-box">
@@ -82,7 +87,8 @@
             </nav>
         </div>
     </header>
-    <!--End Page Header-->
+ 
+ <!--End Page Header-->
     @RenderBody()
 
     <!-- Start  page-footer Section-->
@@ -91,7 +97,7 @@
         <div class="container">
             <div class="row footer-cols">
                 <div class="col-12 col-md-8 col-lg-4  footer-col ">
-                    <img class="img-fluid footer-logo" loading="lazy" src="~/stand-blog/assets/images/logo/logo-colored.png" alt="logo" />
+                    <img class="img-fluid footer-logo" loading="lazy" src="~/stand-blog/assets/images/logo/aaaa.png" alt="logo" />
                     <div class="footer-col-content-wrapper">
                         <p class="footer-text-about-us ">
                             BeckTech, size ve işinize en uygun teknoloji çözümlerini sunmak için tutkuyla çalışan bir şirkettir. Uzman ekibimiz, yenilikçi ve güvenilir çözümler sunarak, hedeflerinize ulaşmanıza yardımcı olmaya hazırdır.
@@ -124,16 +130,16 @@
                     <div class="footer-col-content-wrapper">
                         <ul class="footer-menu">
                             <li class="footer-menu-item">
-                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" asp-action="Contact" asp-controller="Home">İletişim</a>
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" title="İletişim" asp-action="Contact" asp-controller="Home">İletişim</a>
                             </li>
                             <li class="footer-menu-item">
-                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" asp-action="Services" asp-controller="Home">Hizmetler</a>
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" title="Hizmetlerimiz" asp-action="Services" asp-controller="Home">Hizmetler</a>
                             </li>
                             <li class="footer-menu-item">
-                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link"asp-action="Blog" asp-controller="Home">Blog</a>
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" title="Blog" asp-action="Blog" asp-controller="Home">Blog</a>
                             </li>
                             <li class="footer-menu-item">
-                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" asp-action="AboutUs" asp-controller="Home">Hakkımızda</a>
+                                <i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" title="Hakkımızda" asp-action="AboutUs" asp-controller="Home">Hakkımızda</a>
                             </li>
                         </ul>
                     </div>
@@ -141,17 +147,16 @@
                 <div class="col-12     col-lg-4 footer-col ">
                     <h2 class=" footer-col-title    ">İletişim Bilgileri</h2>
                     <div class="footer-col-content-wrapper">
-                        <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase  info" href="mailto:example@support.com">info@becktech.com.tr</a></div>
+                        <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase  info" title="Mail adresimiz" href="mailto:info@becktech.com.tr">info@becktech.com.tr</a></div>
                         <div class="contact-info-card"><i class="bi bi-geo-alt icon"></i><span class="text-lowercase  info">Odtü Teknopark </span></div>
                         <!-- <div class="contact-info-card"><i class="bi bi-phone icon"></i><a class="info" href="tel:+20123456789">+20123456789  </a></div> -->
                         <div class="contact-info-card">
                             <div class="social-icons">
                                 <div class="sc-wrapper dir-row sc-size-32">
                                     <ul class="sc-list">
-                                        <li class="sc-item " title="Facebook"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
-                                        <li class="sc-item " title="youtube"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
-                                        <li class="sc-item " title="instagram"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-instagram sc-icon"></i></a></li>
-                                        <li class="sc-item " title="twitter"><a class="sc-link" href="#0" title="social media icon"><i class="fab fa-twitter sc-icon"></i></a></li>
+                                        <li class="sc-item " title="Facebook"><a class="sc-link" href="https://www.facebook.com/profile.php?id=61559172256165" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                                        <li class="sc-item " title="instagram"><a class="sc-link" href="https://www.instagram.com/becktechtr/" title="social media icon"><i class="fab fa-instagram sc-icon"></i></a></li>
+                                        <li class="sc-item " title="linkedin"><a class="sc-link" href="https://www.linkedin.com/company/becktechtr/about/?viewAsMember=true" title="social media icon"><i class="fab fa-linkedin sc-icon"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -160,7 +165,7 @@
                 </div>
             </div>
         </div>
-@*         <div class="copyrights ">
+       <div class="copyrights ">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex justify-content-start">
@@ -170,18 +175,18 @@
                             &copy; 2024
                             Created by:
 
-                            <a class="link" href="#0">BeckTech</a>
+                            <a class="link" >BeckTech</a>
                         </p>
                     </div>
                     <div class="col-12 col-md-6 d-flex justify-content-end">
                         <div class="terms-links">
-                            <a href="#0">Kullanım Koşulları </a>
-                            | <a href="#0" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal">Gizlilik Politikası</a>
+                            <a title="Kullanım Koşulları" href="#0" data-bs-toggle="modal" data-bs-target="#termsOfUseModal">Kullanım Koşulları </a>
+                            | <a title="Gizlilik Politikası" href="#0" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal">Gizlilik Politikası</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> *@
+        </div> 
     </footer>
     <!-- End  page-footer Section-->
     <!-- Start loading-screen Component-->
@@ -197,38 +202,111 @@
         <div class="modal-dialog modal-dialog-scrollable modal-xl ">
             <div class="modal-content text-dark">
                 <div class="modal-header">
-                    <h2 class="modal-title" id="PrivacyPolicyModalLabel">Privacy Policy Modal Title</h2>
+                    <h2 class="modal-title" id="PrivacyPolicyModalLabel">Gizlilik Politikası:</h2>
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="content">
-                        <h4>privacy policy item Title goes here </h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                        <p>BeckTech olarak, müşterilerimizin ve kullanıcılarımızın gizliliğini önemsiyor ve koruyoruz. Bu gizlilik politikası, şirketimizin web sitesi ve hizmetlerindeki kişisel verilerin nasıl toplandığını, kullanıldığını, korunduğunu ve paylaşıldığını açıklamaktadır.</p>
                     </div>
                     <div class="content">
-                        <h4>privacy policy item Title goes here </h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                        <h4>Toplanan Veriler:</h4>
+                        <p>
+                            Kişisel bilgiler: İsim, e-posta adresi, telefon numarası gibi.<br />
+                            Kullanıcı verileri: Oturum açma bilgileri, tarayıcı türü, IP adresi gibi.<br />
+                            İşlem verileri: Satın alma geçmişi, tercihler, iletişim kayıtları gibi.
+                        </p>
                     </div>
                     <div class="content">
-                        <h4>privacy policy item Title goes here </h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                        <h4>Veri Kullanımı:</h4>
+                        <p>
+                            Hizmetlerin sağlanması: Ürün teslimatı, müşteri destek hizmetleri gibi.<br />
+                            İyileştirme ve analiz: Hizmetlerin geliştirilmesi, pazarlama stratejilerinin belirlenmesi gibi.<br />
+                            Yasal gereksinimler: Kanunen gerekli olduğu durumlarda bilgi paylaşımı.
+                        </p>
                     </div>
                     <div class="content">
-                        <h4>privacy policy item Title goes here </h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                        <h4>Veri Güvenliği:</h4>
+                        <p>
+                            Verilerin korunması: Güvenlik önlemleri ve şifreleme yöntemleri kullanılarak.<br />
+                            Yetkilendirme: Sadece yetkili personelin erişimine izin verilmesi.
+                        </p>
                     </div>
                     <div class="content">
-                        <h4>privacy policy item Title goes here </h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                        <h4>
+                            Veri Paylaşımı:
+                        </h4>
+                        <p>
+                            Üçüncü taraflarla paylaşım: Yalnızca gerektiğinde ve izin alınarak.<br />
+                            Pazarlama amaçlı paylaşım: Kullanıcı izniyle belirlenen durumlarda.
+                        </p>
                     </div>
                     <div class="content">
-                        <h4>privacy policy item Title goes here </h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe, labore sequi libero nesciunt optio quidem iste, dolorum nostrum ex at. Recusandae ducimus aut autem temporibus tempore rerum, consequuntur doloribus perspiciatis, labore totam dolorem veritatis repellendus omnis illo sint ut?</p>
+                        <h4>Çerezler ve Takip Teknolojileri:</h4>
+                        <p>
+                            Çerez kullanımı: Site performansının artırılması ve kullanıcı deneyiminin iyileştirilmesi için.
+                            İzleme teknolojileri: Analiz ve reklam amaçlarıyla kullanılabilir.
+                        </p>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button class="btn-solid" type="button" data-bs-dismiss="modal" aria-label="Close">Click to close</button>
-                    <button class="btn-outline" type="button">Do somthing else</button>
+                    <button class="btn-solid" type="button" data-bs-dismiss="modal" aria-label="Close">Kapat</button>
+                    <a title="İletişim" asp-route="İletişim" class="btn-outline" type="button">İletişime Geç</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End privacy-policy-modal-->
+    <!-- Start privacy-policy-modal-->
+    <div class="modal privacy-policy-modal fade" id="termsOfUseModal" aria-labelledby="termsOfUseModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl ">
+            <div class="modal-content text-dark">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="PrivacyPolicyModalLabel">Kullanım Koşulları</h2>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="content">
+                        <p>BeckTech web sitesini kullanırken aşağıdaki kullanım koşullarını kabul etmiş olursunuz:</p>
+                    </div>
+                    <div class="content">
+                        <h4>Site Kullanımı:</h4>
+                        <p>
+                            İçerik kullanımı: Site içeriğini kişisel, ticari olmayan amaçlarla kullanabilirsiniz.<br />
+                            Yasaklar: Siteye zarar verecek veya hizmetlerin çalışmasını engelleyecek faaliyetler yasaktır.
+                        </p>
+                    </div>
+                    <div class="content">
+                        <h4>Hesap Güvenliği:</h4>
+                        <p>
+                            Kullanıcı hesapları: Hesap bilgilerinin güvenliğinden kullanıcı sorumludur.<br />
+                            İzinsiz kullanım: Hesap güvenliği ihlal edildiğinde derhal bildirim yapılmalıdır.
+                        </p>
+                    </div>
+                    <div class="content">
+                        <h4>Fikri Mülkiyet Hakları:</h4>
+                        <p>
+                            Site içeriği: Telif hakları ve diğer fikri mülkiyet haklarına saygı gösterilmelidir.<br />
+                            İzinsiz kullanım: İzinsiz içerik kullanımı yasaktır ve yasal sonuçları olabilir.
+                        </p>
+                    </div>
+                    <div class="content">
+                        <h4>Bağlantılar ve Üçüncü Taraf Siteleri: </h4>
+                        <p>
+                            Bağlantılar: Üçüncü taraf sitelere verilen bağlantılar için sorumluluk kabul edilmez.<br />
+                            Gizlilik politikaları: Üçüncü taraf sitelerin gizlilik politikalarını incelemek önemlidir.
+                        </p>
+                    </div>
+                    <div class="content">
+                        <h4>Değişiklikler ve Güncellemeler:</h4>
+                        <p>
+                            Koşul değişiklikleri: Kullanım koşulları zaman zaman güncellenebilir, bu nedenle düzenli olarak kontrol edilmelidir.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-solid" type="button" data-bs-dismiss="modal" aria-label="Close">Kapat</button>
+                    <a title="İletişim" asp-route="İletişim" class="btn-outline" type="button">İletişime Geç</a>
                 </div>
             </div>
         </div>

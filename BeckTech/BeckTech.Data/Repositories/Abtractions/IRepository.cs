@@ -20,13 +20,17 @@ namespace BeckTech.Data.Repositories.Abtractions
         Task<int> CountAsycn(Expression<Func<T, bool>> predicate=null);
 
         Task<int> SumAsync(Expression<Func<T, int>> selector, Expression<Func<T, bool>> predicate = null);
-        Task<List<T>> GetTop3Async(Expression<Func<T, int>> selector, Expression<Func<T, bool>> predicate = null, params Expression<Func<T, object>>[] includeProperties);
+        Task<T> GetFirstOrDefaultAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includeProperties);
 
-        Task<List<T>> GetAll2Async(Expression<Func<T, bool>> predicate = null,
-                                       Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-                                       int? skip = null,
-                                       int? take = null,
-                                       params Expression<Func<T, object>>[] includeProperties);
+
+
+
+        Task<List<T>> GetAll2Async(
+        Expression<Func<T, bool>> predicate = null,
+        Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+        Expression<Func<T, object>>[] includeProperties = null,
+        int skip = 0,
+        int take = 3);
 
 
     }

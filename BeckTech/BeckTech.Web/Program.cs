@@ -45,7 +45,7 @@ builder.Services.ConfigureApplicationCookie(config =>
         Name = "BeckTech",
         HttpOnly = true,
         SameSite = SameSiteMode.Strict,
-        SecurePolicy = CookieSecurePolicy.SameAsRequest,//canlya çýkýnca always olacak
+        SecurePolicy = CookieSecurePolicy.Always,//canlya çýkýnca always olacak
     };
     config.SlidingExpiration = true;
     config.ExpireTimeSpan = TimeSpan.FromDays(1);
@@ -89,8 +89,8 @@ app.UseEndpoints(endpoints =>
         );
 
     endpoints.MapControllerRoute(
-           name: "CagatayArslan",
-           pattern: "CagatayArslan",
+           name: "CagatayAslan",
+           pattern: "CagatayAslan",
            defaults: new { controller = "Home", action = "CagatayArslan" }
        );
 
@@ -100,6 +100,65 @@ app.UseEndpoints(endpoints =>
            defaults: new { controller = "Home", action = "EymenDogan" }
        );
     endpoints.MapControllerRoute(
+           name: "OsmanSefaKoroglu",
+           pattern: "OsmanSefaKoroglu",
+           defaults: new { controller = "Home", action = "OsmanSefaKoroglu" }
+       );
+    endpoints.MapControllerRoute(
+           name: "UmutYalvarmaz",
+           pattern: "UmutYalvarmaz",
+           defaults: new { controller = "Home", action = "UmutYalvarmaz" }
+       );
+    endpoints.MapControllerRoute(
+           name: "EymenDogan",
+           pattern: "EymenDogan",
+           defaults: new { controller = "Home", action = "EymenDogan" }
+       );
+    endpoints.MapControllerRoute(
+           name: "HaticeAtabey",
+           pattern: "HaticeAtabey",
+           defaults: new { controller = "Home", action = "HaticeAtabey" }
+       );
+    endpoints.MapControllerRoute(
+          name: "BernaAltuntas",
+          pattern: "BernaAltuntas",
+          defaults: new { controller = "Home", action = "BernaAltuntas" }
+      );
+    endpoints.MapControllerRoute(
+           name: "IbrahimDundar",
+           pattern: "IbrahimDundar",
+           defaults: new { controller = "Home", action = "IbrahimDundar" }
+       );
+    endpoints.MapControllerRoute(
+           name: "EslemKisacik",
+           pattern: "EslemKisacik",
+           defaults: new { controller = "Home", action = "EslemKisacik" }
+       );
+    endpoints.MapControllerRoute(
+           name: "MertcanUcar",
+           pattern: "MertcanUcar",
+           defaults: new { controller = "Home", action = "MertcanUcar" }
+
+       );
+    endpoints.MapControllerRoute(
+          name: "MahmutKarakus",
+          pattern: "MahmutKarakus",
+          defaults: new { controller = "Home", action = "MahmutKarakus" }
+
+      );
+    endpoints.MapControllerRoute(
+          name: "EminTohumcu",
+          pattern: "EminTohumcu",
+          defaults: new { controller = "Home", action = "EminTohumcu" }
+
+      );
+    endpoints.MapControllerRoute(
+          name: "DuyguDogan",
+          pattern: "DuyguDogan",
+          defaults: new { controller = "Home", action = "DuyguDogan" }
+
+      );
+    endpoints.MapControllerRoute(
           name: "Ýletiþim",
           pattern: "Ýletiþim",
           defaults: new { controller = "Home", action = "Contact" }
@@ -107,7 +166,7 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllerRoute(
          name: "Hakkýmýzda",
          pattern: "Hakkýmýzda",
-         defaults: new { controller = "Home", action = "AboutUs" }
+         defaults: new { controller = "Home", action = "AboutUs" }  
      );
     endpoints.MapControllerRoute(
          name: "Hizmetlerimiz",

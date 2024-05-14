@@ -1,0 +1,15 @@
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\bin\Release\net6.0\BechTech.Entity.deps.json
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\bin\Release\net6.0\BechTech.Entity.dll
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\bin\Release\net6.0\BechTech.Entity.pdb
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\bin\Release\net6.0\BeckTech.Core.dll
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\bin\Release\net6.0\BeckTech.Core.pdb
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\obj\Release\net6.0\BechTech.Entity.csproj.AssemblyReference.cache
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\obj\Release\net6.0\BechTech.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\obj\Release\net6.0\BechTech.Entity.AssemblyInfoInputs.cache
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\obj\Release\net6.0\BechTech.Entity.AssemblyInfo.cs
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\obj\Release\net6.0\BechTech.Entity.csproj.CoreCompileInputs.cache
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\obj\Release\net6.0\BechTech.Entity.csproj.CopyComplete
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\obj\Release\net6.0\BechTech.Entity.dll
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\obj\Release\net6.0\refint\BechTech.Entity.dll
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\obj\Release\net6.0\BechTech.Entity.pdb
+C:\Users\batuh\OneDrive\Belgeler\GitHub\BeckTech\BeckTech\BechTech.Entity\obj\Release\net6.0\ref\BechTech.Entity.dll

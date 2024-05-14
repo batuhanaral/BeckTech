@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BechTech.Entity.DTO.Articles;
 using BechTech.Entity.DTO.Categories;
 using BechTech.Entity.Entities;
 using BeckTech.Data.UnitOfWorks;
@@ -106,6 +107,32 @@ namespace BeckTech.Service.Services.Concrete
             return category.Name;
         }
 
-       
+
+
+
+
+        public async Task<CategoryListDto> GettAllByPagingAync(int currentPage = 1, int pageSize = 3, bool isAscending = false)
+        {
+            pageSize = pageSize > 20 ? 20 : pageSize;
+
+            var categories = await unitOfWork.GetRepository<Category>().GetAllAsync(a => !a.IsDeleted);
+                                             
+
+            var sortedArticles = isAscending
+                ? categories.OrderBy(x => x.CreatedDate).Skip((currentPage - 1) * pageSize).ToList()
+                : categories.OrderByDescending(x => x.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
+
+            return new CategoryListDto
+            {
+                Categories = sortedArticles,
+                CurrentPageC = currentPage,
+                PageSizeC = pageSize,
+                TotalCountC = categories.Count(),
+                IsAscendingC = isAscending,
+
+            };
+
+        }
+
     }
 }

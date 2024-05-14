@@ -119,6 +119,47 @@ namespace BeckTech.Web.Controllers
         {
             return View();
         }
+        public async Task<IActionResult> OsmanSefaKoroglu()
+        {
+            return View();
+        }
+        public async Task<IActionResult> UmutYalvarmaz()
+        {
+            return View();
+        }
+
+        public async Task<IActionResult> HaticeAtabey()
+        {
+            return View();
+        }
+        public async Task<IActionResult> BernaAltuntas()
+        {
+            return View();
+        }
+        public async Task<IActionResult> IbrahimDundar()
+        {
+            return View();
+        }
+        public async Task<IActionResult> EslemKisacik()
+        {
+            return View();
+        }
+        public async Task<IActionResult> MertcanUcar()
+        {
+            return View();
+        }
+        public async Task<IActionResult> MahmutKarakus()
+        {
+            return View();
+        }
+        public async Task<IActionResult> EminTohumcu()
+        {
+            return View();
+        }
+        public async Task<IActionResult> DuyguDogan()
+        {
+            return View();
+        }
         [HttpPost]
         public async Task<IActionResult> Contact(ContactDto contactDto)
         {

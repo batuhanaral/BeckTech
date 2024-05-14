@@ -7,7 +7,7 @@
         @foreach (var item in Model)
         {
             <li class="r-post-item">
-                <a class="r-post-link" asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">
+                <a class="r-post-link" title="Detay sayfası" asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">
                     <div class="r-post-img-wrapper"><img class="r-post-img" loading="lazy" src="~/images/@item.Image.FileName" alt="@item.Title"></div>
                     <div class="content">
                         <h6 class="r-post-title">@item.Title</h6><span class="r-post-date">@item.CreatedDate.ToString("dd/MM/yyyy") </span>

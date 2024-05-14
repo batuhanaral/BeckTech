@@ -34,7 +34,7 @@ namespace BeckTech.Service.Services.Concrete
             var articleVisitors = await unitOfWork.GetRepository<ArticleVisitor>().GetAllAsync(null, x=>x.Visitor,y=>y.Article);
             var article = await unitOfWork.GetRepository<Article>().GetAsync(x => x.Id == id);
 
-            var visitor = await unitOfWork.GetRepository<Visitor>().GetAsync(x => x.IpAddress == ipAddress);
+            var visitor = await unitOfWork.GetRepository<Visitor>().GetFirstOrDefaultAsync(x => x.IpAddress == ipAddress);//değişiklik var.
 
             var addArticleVisitor = new ArticleVisitor(article.Id, visitor.Id);
             if (articleVisitors.Any(x => x.VisitorId == addArticleVisitor.VisitorId && x.ArticleId == addArticleVisitor.ArticleId))

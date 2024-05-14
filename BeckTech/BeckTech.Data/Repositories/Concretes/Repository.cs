@@ -11,16 +11,16 @@ using System.Threading.Tasks;
 
 namespace BeckTech.Data.Repositories.Concretes
 {
-    public class Repository<T>: IRepository<T> where T : class, IEntityBase ,new()
+    public class Repository<T> : IRepository<T> where T : class, IEntityBase, new()
     {
         private readonly BeckTechDbContext dbContext;
 
-        public Repository(BeckTechDbContext dbContext) 
+        public Repository(BeckTechDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
         private DbSet<T> Table { get => dbContext.Set<T>(); }
-        public async Task<List<T>> GetAllAsync(Expression<Func<T,bool>> predicate =null,params Expression<Func<T, object>>[] includeProperties)
+        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> predicate = null, params Expression<Func<T, object>>[] includeProperties)
         {
             IQueryable<T> query = Table;
             if (predicate != null)
@@ -32,14 +32,14 @@ namespace BeckTech.Data.Repositories.Concretes
 
             return await query.ToListAsync();
         }
-    
-    
+
+
         public async Task AddAsycn(T entity)
         {
             await Table.AddAsync(entity);
         }
 
-        public async Task<T> GetAsync(Expression<Func<T, bool>> predicate , params Expression<Func<T, object>>[] includeProperties)
+        public async Task<T> GetAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includeProperties)
         {
             IQueryable<T> query = Table;
             query = query.Where(predicate);
@@ -48,7 +48,23 @@ namespace BeckTech.Data.Repositories.Concretes
                 foreach (var item in includeProperties)
                     query = query.Include(item);
 
-            return await query.SingleAsync(); 
+            return await query.SingleAsync();
+        }
+
+        public async Task<T> GetFirstOrDefaultAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includeProperties)
+        {
+            IQueryable<T> query = Table;
+            query = query.Where(predicate);
+
+            if (includeProperties.Any())
+            {
+                foreach (var item in includeProperties)
+                {
+                    query = query.Include(item);
+                }
+            }
+
+            return await query.FirstOrDefaultAsync();
         }
 
         public async Task<T> GetByGuidAsync(Guid id)
@@ -65,7 +81,7 @@ namespace BeckTech.Data.Repositories.Concretes
         public async Task DeleteAsycn(T entity)
         {
             await Task.Run(() => Table.Remove(entity));
-            
+
         }
 
         public async Task<bool> AnyAsycn(Expression<Func<T, bool>> predicate)
@@ -91,14 +107,26 @@ namespace BeckTech.Data.Repositories.Concretes
 
 
 
-        public async Task<List<T>> GetTop3Async(Expression<Func<T, int>> selector, Expression<Func<T, bool>> predicate = null, params Expression<Func<T, object>>[] includeProperties)
+
+
+        
+
+
+        public async Task<List<T>> GetAll2Async(
+    Expression<Func<T, bool>> predicate = null,
+    Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+    Expression<Func<T, object>>[] includeProperties = null,
+    int skip = 0,
+    int take =3)
         {
             IQueryable<T> query = Table;
 
             if (predicate != null)
+            {
                 query = query.Where(predicate);
+            }
 
-            if (includeProperties.Any())
+            if (includeProperties != null && includeProperties.Any())
             {
                 foreach (var item in includeProperties)
                 {
@@ -106,36 +134,30 @@ namespace BeckTech.Data.Repositories.Concretes
                 }
             }
 
-            query = query.OrderByDescending(selector).Take(3);
-
-            return await query.ToListAsync();
-        }
-
-
-        public async Task<List<T>> GetAll2Async(Expression<Func<T, bool>> predicate = null,
-                                       Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-                                       int? skip = null,
-                                       int? take = null,
-                                       params Expression<Func<T, object>>[] includeProperties)
-        {
-            IQueryable<T> query = Table;
-            if (predicate != null)
-                query = query.Where(predicate);
-
-            if (includeProperties.Any())
-                foreach (var item in includeProperties)
-                    query = query.Include(item);
-
             if (orderBy != null)
+            {
                 query = orderBy(query);
+            }
 
-            if (skip.HasValue)
-                query = query.Skip(skip.Value);
+            if (skip > 0)
+            {
+                query = query.Skip(skip);
+            }
 
-            if (take.HasValue)
-                query = query.Take(take.Value);
+            if (take > 0 && take != Int32.MaxValue)
+            {
+                query = query.Take(take);
+            }
 
             return await query.ToListAsync();
         }
+
+
+
+
+
+
+
+
     }
 }

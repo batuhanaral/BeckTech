@@ -15,7 +15,7 @@ namespace BeckTech.Web.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var articles = await articleService.GetMostReadArticleslWithCategoryDeletedAync();
+            var articles = await articleService.GetTopViewedArticlesWithIncludesAsync();
             return View(articles); // Makalelerin listesini görünüme geçirin
         }
 

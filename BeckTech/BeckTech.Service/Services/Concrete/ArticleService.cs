@@ -8,6 +8,7 @@ using BeckTech.Service.Extensions;
 using System.Security.Claims;
 using BeckTech.Service.Helpers.Images;
 using BechTech.Entity.Enums;
+using System.Linq.Expressions;
 
 namespace BeckTech.Service.Services.Concrete
 {
@@ -267,32 +268,24 @@ namespace BeckTech.Service.Services.Concrete
         }
 
 
-        public async Task<List<ArticleDto>> GetMostReadArticleslWithCategoryDeletedAync()
+       
+
+
+
+        public async Task<List<ArticleDto>> GetTopViewedArticlesWithIncludesAsync()
         {
-            var articles = await _unitOfWork.GetRepository<Article>()
-                .GetAll2Async(x => !x.IsDeleted,  
-                             orderBy: q => q.OrderByDescending(x => x.ViewCount),
-                             take: 3,
-                             includeProperties: i=>i.Image
-                             
-                             );
-            var map = mapper.Map<List<ArticleDto>>(articles);
+            Expression<Func<Article, bool>> predicate = x => !x.IsDeleted;
+            Func<IQueryable<Article>, IOrderedQueryable<Article>> orderBy = q => q.OrderByDescending(x => x.ViewCount);
+            Expression<Func<Article, object>>[] includeProperties =
+            {
+                x => x.Image,
+                x => x.Category,
+                x => x.User
+            };
 
-            return map;
-        }
+            var articles = await _unitOfWork.GetRepository<Article>().GetAll2Async(predicate, orderBy, includeProperties, take: 3);
 
-        public async Task<List<ArticleDto>> GetMostReadArticleslWithCategoryDeletedAync2()
-        {
-            var articles = await _unitOfWork.GetRepository<Article>()
-                .GetAll2Async(x => !x.IsDeleted,
-                             orderBy: q => q.OrderByDescending(x => x.ViewCount),
-                             take: 3,
-                             includeProperties: i => i.Image
-
-                             );
-            var map = mapper.Map<List<ArticleDto>>(articles);
-
-            return map;
+            return mapper.Map<List<ArticleDto>>(articles);
         }
 
 

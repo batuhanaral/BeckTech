@@ -20,6 +20,7 @@ namespace BeckTech.Service.Services.Abstractions
         Task<string> SafeDeleteCategoryAsync(Guid categoryId);
         Task<Category> GetCategoryByGuid(Guid id);
         Task<string> UndoDeleteCategoryAsync(Guid categoryId);
+        Task<CategoryListDto> GettAllByPagingAync(int currentPage = 1, int pageSize = 3, bool isAscending = false);
     }
 }
                       

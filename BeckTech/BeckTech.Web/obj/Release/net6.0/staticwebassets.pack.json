@@ -1,0 +1,2449 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\batuh\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\noty.js",
+      "PackagePath": "staticwebassets\\noty.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\toastr.js",
+      "PackagePath": "staticwebassets\\toastr.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\BeckTech.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BeckTech.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\DenemeMakalesi_644.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\DenemeMakalesi_644.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\WhatisLoremIpsum_247.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\WhatisLoremIpsum_247.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\WhatisLoremIpsum_533.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\WhatisLoremIpsum_533.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\WhatisLoremIpsum_67.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\WhatisLoremIpsum_67.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\WhatisLoremIpsum_705.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\WhatisLoremIpsum_705.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\Yajusiklioguz_615.jpg",
+      "PackagePath": "staticwebassets\\images\\article-images\\Yajusiklioguz_615.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_183.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\BatuhanAral_183.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_427.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\BatuhanAral_427.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_449.jpg",
+      "PackagePath": "staticwebassets\\images\\user-images\\BatuhanAral_449.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_566.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\BatuhanAral_566.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_575.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\BatuhanAral_575.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_605.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\BatuhanAral_605.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_944.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\BatuhanAral_944.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_966.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\BatuhanAral_966.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\Cagatay2Aslan_508.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\Cagatay2Aslan_508.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\CagatayAslan_487.jpg",
+      "PackagePath": "staticwebassets\\images\\user-images\\CagatayAslan_487.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\CagatayAslan_875.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\CagatayAslan_875.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\CagatayAslan_947.png",
+      "PackagePath": "staticwebassets\\images\\user-images\\CagatayAslan_947.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\CagatayAslan_970.jpg",
+      "PackagePath": "staticwebassets\\images\\user-images\\CagatayAslan_970.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\ProfilePhoto_1881.jpg",
+      "PackagePath": "staticwebassets\\images\\user-images\\ProfilePhoto_1881.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\articleScript.js",
+      "PackagePath": "staticwebassets\\js\\articleScript.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\categoryAdd.js",
+      "PackagePath": "staticwebassets\\js\\categoryAdd.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\categoryScript.js",
+      "PackagePath": "staticwebassets\\js\\categoryScript.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\dashboardIndex.js",
+      "PackagePath": "staticwebassets\\js\\dashboardIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\js\\userScript.js",
+      "PackagePath": "staticwebassets\\js\\userScript.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.browserslistrc",
+      "PackagePath": "staticwebassets\\sneat\\.browserslistrc"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.eslintignore",
+      "PackagePath": "staticwebassets\\sneat\\.eslintignore"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\sneat\\.eslintrc.json"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.gitignore",
+      "PackagePath": "staticwebassets\\sneat\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.prettierignore",
+      "PackagePath": "staticwebassets\\sneat\\.prettierignore"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.prettierrc.json",
+      "PackagePath": "staticwebassets\\sneat\\.prettierrc.json"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\sneat\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\LICENSE.md",
+      "PackagePath": "staticwebassets\\sneat\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\README.md",
+      "PackagePath": "staticwebassets\\sneat\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\build-config.js",
+      "PackagePath": "staticwebassets\\sneat\\build-config.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\documentation.html",
+      "PackagePath": "staticwebassets\\sneat\\documentation.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\fonts\\boxicons.scss",
+      "PackagePath": "staticwebassets\\sneat\\fonts\\boxicons.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\gulpfile.js",
+      "PackagePath": "staticwebassets\\sneat\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\auth-forgot-password-basic.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\auth-forgot-password-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\auth-login-basic.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\auth-login-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\auth-register-basic.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\auth-register-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\cards-basic.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\cards-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\extended-ui-perfect-scrollbar.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\extended-ui-perfect-scrollbar.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\extended-ui-text-divider.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\extended-ui-text-divider.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\form-layouts-horizontal.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\form-layouts-horizontal.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\form-layouts-vertical.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\form-layouts-vertical.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\forms-basic-inputs.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\forms-basic-inputs.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\forms-input-groups.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\forms-input-groups.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\icons-boxicons.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\icons-boxicons.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\index.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\layouts-blank.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\layouts-blank.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\layouts-container.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\layouts-container.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\layouts-fluid.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\layouts-fluid.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\layouts-without-menu.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\layouts-without-menu.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\layouts-without-navbar.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\layouts-without-navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\pages-account-settings-account.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\pages-account-settings-account.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\pages-account-settings-connections.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\pages-account-settings-connections.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\pages-account-settings-notifications.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\pages-account-settings-notifications.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\pages-misc-error.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\pages-misc-error.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\pages-misc-under-maintenance.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\pages-misc-under-maintenance.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\tables-basic.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\tables-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-accordion.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-accordion.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-alerts.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-alerts.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-badges.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-badges.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-buttons.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-carousel.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-carousel.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-collapse.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-collapse.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-dropdowns.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-dropdowns.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-footer.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-footer.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-list-groups.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-list-groups.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-modals.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-modals.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-navbar.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-offcanvas.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-offcanvas.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-pagination-breadcrumbs.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-pagination-breadcrumbs.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-progress.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-progress.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-spinners.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-spinners.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-tabs-pills.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-tabs-pills.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-toasts.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-toasts.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-tooltips-popovers.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-tooltips-popovers.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\ui-typography.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-typography.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\index.html",
+      "PackagePath": "staticwebassets\\sneat\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\sneat\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\sneat\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\js\\menu.js",
+      "PackagePath": "staticwebassets\\sneat\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\apex-charts\\apex-charts.scss",
+      "PackagePath": "staticwebassets\\sneat\\libs\\apex-charts\\apex-charts.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\highlight\\highlight-github.scss",
+      "PackagePath": "staticwebassets\\sneat\\libs\\highlight\\highlight-github.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\highlight\\highlight.scss",
+      "PackagePath": "staticwebassets\\sneat\\libs\\highlight\\highlight.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\sneat\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\package-lock.json",
+      "PackagePath": "staticwebassets\\sneat\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\package.json",
+      "PackagePath": "staticwebassets\\sneat\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_accordion.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_alert.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_badge.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_button-group.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_buttons.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_card.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_carousel.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_close.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_forms.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_functions.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_include.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_include.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_list-group.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_modal.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_nav.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_navbar.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_pagination.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_popover.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_progress.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_reboot.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_root.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_spinners.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_tables.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_toasts.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_type.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_utilities.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_variables.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_colors.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_app-brand.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_avatar.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_base.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_common.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_footer.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_include.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_include.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_layout.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_layout.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_menu.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_text-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\_variables.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_app-brand.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_avatar.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_footer.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_menu.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_navbar.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_text-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_custom-variables\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_custom-variables\\_components.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_custom-variables\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_custom-variables\\_libs.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_custom-variables\\_libs.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_custom-variables\\_pages.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_custom-variables\\_pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_custom-variables\\_support.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_custom-variables\\_support.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_theme\\_common.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_theme\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_theme\\_theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\core.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\core.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\pages\\page-account-settings.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\pages\\page-account-settings.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\pages\\page-auth.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\pages\\page-auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\pages\\page-icons.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\pages\\page-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\pages\\page-misc.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\pages\\page-misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\theme-default.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\theme-default.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\tasks\\build.js",
+      "PackagePath": "staticwebassets\\sneat\\tasks\\build.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\tasks\\prod.js",
+      "PackagePath": "staticwebassets\\sneat\\tasks\\prod.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\webpack.config.js",
+      "PackagePath": "staticwebassets\\sneat\\webpack.config.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\yarn.lock",
+      "PackagePath": "staticwebassets\\sneat\\yarn.lock"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\0-configs\\_direction-LTR.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\0-configs\\_direction-LTR.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\0-configs\\_direction-RTL.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\0-configs\\_direction-RTL.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\1-helpers\\_custom-animations.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\1-helpers\\_custom-animations.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\1-helpers\\_dark-theme.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\1-helpers\\_dark-theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\1-helpers\\_globals.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\1-helpers\\_globals.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\1-helpers\\_mixins.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\1-helpers\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\1-helpers\\_variables.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\1-helpers\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\2-components\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\2-components\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\2-components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\2-components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\2-components\\_forms.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\2-components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\2-components\\_header-search-box.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\2-components\\_header-search-box.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\2-components\\_loading-screen.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\2-components\\_loading-screen.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\2-components\\_tabs.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\2-components\\_tabs.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_404.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_404.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_about.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_benefits.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_benefits.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_blog.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_contact-us.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_contact-us.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_faq.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_faq.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_my-account.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_my-account.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_our-clients.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_our-clients.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_our-team.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_our-team.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_our-video.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_our-video.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_page-footer.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_page-footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_page-header.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_page-header.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_page-hero.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_page-hero.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_portfolio-single.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_portfolio-single.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_portfolio.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_portfolio.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_pricing.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_pricing.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_services.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_services.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_shop.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_shop.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_stats.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_stats.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_take-action.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_take-action.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\3-layout\\_testimonials.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\3-layout\\_testimonials.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\_main.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\_main.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\main-LTR.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\main-LTR.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\main-RTL.scss",
+      "PackagePath": "staticwebassets\\stand-blog\\_src\\scss\\main-RTL.scss"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\about\\1.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\about\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\about\\2.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\about\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\about\\3.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\about\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\about\\4.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\about\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\about\\photo-1.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\about\\photo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\about\\photo-2.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\about\\photo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\about\\signature-dark.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\about\\signature-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\about\\signature-light.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\about\\signature-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\avatars\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\avatars\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\avatars\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\avatars\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\avatars\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\avatars\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\avatars\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\avatars\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\feed\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\feed\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\feed\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\feed\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\feed\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\feed\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\feed\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\feed\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\feed\\5.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\feed\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\feed\\6.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\feed\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\5.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\6.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\featured-img.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\featured-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\post-img.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\post-images\\post-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\recent-posts\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\recent-posts\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\recent-posts\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\recent-posts\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\recent-posts\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\recent-posts\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\blog\\recent-posts\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\blog\\recent-posts\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\clients-logos\\1.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\clients-logos\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\clients-logos\\2.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\clients-logos\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\clients-logos\\3.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\clients-logos\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\clients-logos\\4.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\clients-logos\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\clients-logos\\5.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\clients-logos\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\clients-logos\\6.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\clients-logos\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\clients-logos\\7.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\clients-logos\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\clients-logos\\8.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\clients-logos\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\fav-icon\\fav-icon.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\fav-icon\\fav-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\hero\\8.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\hero\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\hero\\hero-bg-1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\hero\\hero-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\hero\\hero-bg-2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\hero\\hero-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\hero\\hero-bg-3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\hero\\hero-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\hero\\illustration-1.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\hero\\illustration-1.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\hero\\illustration-2.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\hero\\illustration-2.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\hero\\inner-page-hero.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\hero\\inner-page-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\icons\\play-icon.svg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\icons\\play-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\icons\\search-icon.svg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\icons\\search-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\logo\\logo-colored.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\logo\\logo-colored.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\logo\\logo-dark.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\logo\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\logo\\logo-light.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\logo\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\our-team\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\our-team\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\our-team\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\our-team\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\our-team\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\our-team\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\our-team\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\our-team\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\our-team\\5.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\our-team\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\our-team\\6.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\our-team\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\our-team\\7.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\our-team\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\our-team\\8.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\our-team\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\our-team\\cert-1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\our-team\\cert-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\our-team\\cert-2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\our-team\\cert-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\5.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\6.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\7.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\8.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\9.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\featured-image.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\featured-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\portfolio\\seal.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\portfolio\\seal.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\404.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\404.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\footer-bg-1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\footer-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\pattern-bg-1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\pattern-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\pattern-bg-2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\pattern-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\pattern-bg-3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\pattern-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\pattern-bg-4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\sections-bg-images\\pattern-bg-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\services\\service-single-featured-img.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\services\\service-single-featured-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\services\\service-single-img-col-1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\services\\service-single-img-col-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\services\\service-single-img-col-2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\services\\service-single-img-col-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\testimonials\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\testimonials\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\testimonials\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\testimonials\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images-placeholders\\testimonials\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images-placeholders\\testimonials\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\about\\1.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\about\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\about\\2.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\about\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\about\\3.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\about\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\about\\4.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\about\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\about\\photo-1.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\about\\photo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\about\\photo-2.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\about\\photo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\about\\signature-dark.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\about\\signature-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\about\\signature-light.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\about\\signature-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\avatars\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\avatars\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\avatars\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\avatars\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\avatars\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\avatars\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\avatars\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\avatars\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\feed\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\feed\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\feed\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\feed\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\feed\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\feed\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\feed\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\feed\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\feed\\5.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\feed\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\feed\\6.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\feed\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\post-images\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\post-images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\post-images\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\post-images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\post-images\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\post-images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\post-images\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\post-images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\post-images\\5.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\post-images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\post-images\\6.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\post-images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\post-images\\featured-img.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\post-images\\featured-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\post-images\\post-img.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\post-images\\post-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\recent-posts\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\recent-posts\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\recent-posts\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\recent-posts\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\recent-posts\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\recent-posts\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\blog\\recent-posts\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\blog\\recent-posts\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\clients-logos\\1-white.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\clients-logos\\1-white.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\clients-logos\\2-white.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\clients-logos\\2-white.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\clients-logos\\3-white.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\clients-logos\\3-white.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\clients-logos\\4-white.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\clients-logos\\4-white.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\clients-logos\\5-white.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\clients-logos\\5-white.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\clients-logos\\6-white.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\clients-logos\\6-white.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\clients-logos\\7-white.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\clients-logos\\7-white.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\clients-logos\\8-white.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\clients-logos\\8-white.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\fav-icon\\fav-icon.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\fav-icon\\fav-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\fav-icon\\logo.ico",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\fav-icon\\logo.ico"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\hero\\hero-bg-1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\hero\\hero-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\hero\\hero-bg-2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\hero\\hero-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\hero\\hero-bg-3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\hero\\hero-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\hero\\illustration-1.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\hero\\illustration-1.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\hero\\illustration-2.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\hero\\illustration-2.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\hero\\inner-page-hero.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\hero\\inner-page-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\icons\\play-icon.svg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\icons\\play-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\icons\\search-icon.svg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\icons\\search-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\Mavi.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\Mavi.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\Siyah.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\Siyah.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\aaaa.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\aaaa.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\aaaab.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\aaaab.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\aaaam.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\aaaam.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\aaaas.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\aaaas.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\logo-colored.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\logo-colored.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\logo-dark.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\logo-light.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\Şeffaf.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\Şeffaf.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\batuhanAral.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\batuhanAral.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\cagatayArslan.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\cagatayArslan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\eymenDogan.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\eymenDogan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\haticeAtabey.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\haticeAtabey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\osmanSefaKoroglu.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\osmanSefaKoroglu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\umutYalvarmaz.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\umutYalvarmaz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\5.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\6.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\7.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\8.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\9.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\featured-image.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\featured-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\portfolio\\seal.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\portfolio\\seal.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\sections-bg-images\\1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\sections-bg-images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\sections-bg-images\\2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\sections-bg-images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\sections-bg-images\\404.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\sections-bg-images\\404.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\sections-bg-images\\footer-bg-1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\sections-bg-images\\footer-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\sections-bg-images\\pattern-bg-1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\sections-bg-images\\pattern-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\sections-bg-images\\pattern-bg-2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\sections-bg-images\\pattern-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\sections-bg-images\\pattern-bg-3.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\sections-bg-images\\pattern-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\sections-bg-images\\pattern-bg-4.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\sections-bg-images\\pattern-bg-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\services\\service-single-featured-img.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\services\\service-single-featured-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\services\\service-single-img-col-1.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\services\\service-single-img-col-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\services\\service-single-img-col-2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\services\\service-single-img-col-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\testimonials\\1.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\testimonials\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\testimonials\\2.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\testimonials\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\testimonials\\3.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\testimonials\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\BatuhanAralCv.pdf",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\BatuhanAralCv.pdf"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\EymenDogan.pdf",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\EymenDogan.pdf"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\HaticeAtabey.pdf",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\HaticeAtabey.pdf"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\OsmanSefa.pdf",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\OsmanSefa.pdf"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\videos\\section-bg-video-1.mp4",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\videos\\section-bg-video-1.mp4"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\main-LTR.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\main-LTR.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\main-LTR.css.map",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\main-LTR.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\main-RTL.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\main-RTL.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\main-RTL.css.map",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\main-RTL.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\all.min.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\animate.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\bootstrap-icons-1.9.1\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\bootstrap-icons-1.9.1\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\bootstrap-icons-1.9.1\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\bootstrap-icons-1.9.1\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\bootstrap-icons-1.9.1\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\bootstrap-icons-1.9.1\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\bootstrap-icons-1.9.1\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\bootstrap-icons-1.9.1\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\flaticon\\flaticon.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\flaticon\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\flaticon\\flaticon.eot",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\flaticon\\flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\flaticon\\flaticon.svg",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\flaticon\\flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\flaticon\\flaticon.ttf",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\flaticon\\flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\flaticon\\flaticon.woff",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\flaticon\\flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\flaticon\\flaticon.woff2",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\flaticon\\flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\nice-select.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\odometer-theme-default.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\odometer-theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\splitting-cells.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\splitting-cells.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\splitting.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\splitting.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\vegas.min.css",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\vegas.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\vendors\\vegas.min.css.map",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\vendors\\vegas.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\css\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\stand-blog\\css\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\main.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\appear.min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\appear.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\isotope-min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\isotope-min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\jquery-3.6.1.min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\jquery-3.6.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\jquery.countTo.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\jquery.countTo.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\particles-json-files\\particles-circles.json",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\particles-json-files\\particles-circles.json"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\particles-json-files\\particles-dots.json",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\particles-json-files\\particles-dots.json"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\particles-json-files\\particles-polygons.json",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\particles-json-files\\particles-polygons.json"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\particles-json-files\\particles-squares.json",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\particles-json-files\\particles-squares.json"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\particles.min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\particles.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\splitting.min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\splitting.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\vanilla-tilt.min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\vanilla-tilt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\js\\vendors\\wow.min.js",
+      "PackagePath": "staticwebassets\\stand-blog\\js\\vendors\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.BeckTech.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.BeckTech.Web.props",
+      "PackagePath": "build\\BeckTech.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BeckTech.Web.props",
+      "PackagePath": "buildMultiTargeting\\BeckTech.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.BeckTech.Web.props",
+      "PackagePath": "buildTransitive\\BeckTech.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -35,7 +35,7 @@
                         <tr name="@article.Id">
                             <td>@article.Title</td>
                             <td>@article.Category.Name</td>
-                            <td>@article.CreatedDate.ToShortDateString()</td>
+                            <td>@article.CreatedDate.ToString("dd/MM/yyyy")</td>
                             <td>@article.CreatedBy</td>
                             <td>@(article.IsDeleted ? "Aktif Değil" : "Aktif")</td>
                             <td>
