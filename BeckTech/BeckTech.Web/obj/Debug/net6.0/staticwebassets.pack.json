@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\111111111111111111111111111111111111111111111111111111111111_221.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\111111111111111111111111111111111111111111111111111111111111_221.png"
+    },
+    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\DenemeMakalesi_644.jpg",
       "PackagePath": "staticwebassets\\images\\article-images\\DenemeMakalesi_644.jpg"
     },
@@ -43,6 +47,10 @@
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\Yajusiklioguz_615.jpg",
       "PackagePath": "staticwebassets\\images\\article-images\\Yajusiklioguz_615.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\article-images\\sadadasdas_914.png",
+      "PackagePath": "staticwebassets\\images\\article-images\\sadadasdas_914.png"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\images\\user-images\\BatuhanAral_183.png",
@@ -351,42 +359,6 @@
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.browserslistrc",
-      "PackagePath": "staticwebassets\\sneat\\.browserslistrc"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.eslintignore",
-      "PackagePath": "staticwebassets\\sneat\\.eslintignore"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.eslintrc.json",
-      "PackagePath": "staticwebassets\\sneat\\.eslintrc.json"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.gitignore",
-      "PackagePath": "staticwebassets\\sneat\\.gitignore"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.prettierignore",
-      "PackagePath": "staticwebassets\\sneat\\.prettierignore"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\.prettierrc.json",
-      "PackagePath": "staticwebassets\\sneat\\.prettierrc.json"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\CHANGELOG.md",
-      "PackagePath": "staticwebassets\\sneat\\CHANGELOG.md"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\LICENSE.md",
-      "PackagePath": "staticwebassets\\sneat\\LICENSE.md"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\README.md",
-      "PackagePath": "staticwebassets\\sneat\\README.md"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\assets\\css\\demo.css",
@@ -705,20 +677,8 @@
       "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\popper\\popper.js"
     },
     {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\build-config.js",
-      "PackagePath": "staticwebassets\\sneat\\build-config.js"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\documentation.html",
-      "PackagePath": "staticwebassets\\sneat\\documentation.html"
-    },
-    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\fonts\\boxicons.scss",
       "PackagePath": "staticwebassets\\sneat\\fonts\\boxicons.scss"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\gulpfile.js",
-      "PackagePath": "staticwebassets\\sneat\\gulpfile.js"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\html\\auth-forgot-password-basic.html",
@@ -889,10 +849,6 @@
       "PackagePath": "staticwebassets\\sneat\\html\\ui-typography.html"
     },
     {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\index.html",
-      "PackagePath": "staticwebassets\\sneat\\index.html"
-    },
-    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\sneat\\js\\bootstrap.js"
     },
@@ -943,14 +899,6 @@
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\libs\\popper\\popper.js",
       "PackagePath": "staticwebassets\\sneat\\libs\\popper\\popper.js"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\package-lock.json",
-      "PackagePath": "staticwebassets\\sneat\\package-lock.json"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\package.json",
-      "PackagePath": "staticwebassets\\sneat\\package.json"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended.scss",
@@ -1307,14 +1255,6 @@
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\tasks\\prod.js",
       "PackagePath": "staticwebassets\\sneat\\tasks\\prod.js"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\webpack.config.js",
-      "PackagePath": "staticwebassets\\sneat\\webpack.config.js"
-    },
-    {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\sneat\\yarn.lock",
-      "PackagePath": "staticwebassets\\sneat\\yarn.lock"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\_src\\scss\\0-configs\\_direction-LTR.scss",
@@ -2053,6 +1993,10 @@
       "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\batuhanAral.jpg"
     },
     {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\bernaAltuntas.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\bernaAltuntas.jpg"
+    },
+    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\cagatayArslan.jpg",
       "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\cagatayArslan.jpg"
     },
@@ -2205,8 +2149,8 @@
       "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\BatuhanAralCv.pdf"
     },
     {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\EymenDogan.pdf",
-      "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\EymenDogan.pdf"
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\EymenDogan2.pdf",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\EymenDogan2.pdf"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\HaticeAtabey.pdf",

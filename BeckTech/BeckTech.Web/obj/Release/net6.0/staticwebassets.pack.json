@@ -1961,6 +1961,10 @@
       "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\clients-logos\\8-white.png"
     },
     {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\fav-icon\\aaaa.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\fav-icon\\aaaa.png"
+    },
+    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\fav-icon\\fav-icon.png",
       "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\fav-icon\\fav-icon.png"
     },
@@ -2025,6 +2029,10 @@
       "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\aaaas.png"
     },
     {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\admin.png",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\admin.png"
+    },
+    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\logo\\logo-colored.png",
       "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\logo\\logo-colored.png"
     },
@@ -2045,8 +2053,28 @@
       "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\batuhanAral.jpg"
     },
     {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\bernaAltuntas.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\bernaAltuntas.jpg"
+    },
+    {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\cagatayArslan.jpg",
       "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\cagatayArslan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\duyguDogan.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\duyguDogan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\eminTohumcu.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\eminTohumcu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\eminTohumcu2.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\eminTohumcu2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\eslemKisacik.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\eslemKisacik.jpg"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\eymenDogan.jpg",
@@ -2055,6 +2083,18 @@
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\haticeAtabey.jpg",
       "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\haticeAtabey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\ibrahimDundar.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\ibrahimDundar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\mahmutKarakus.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\mahmutKarakus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\mertcanUcar.jpg",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\images\\our-team\\mertcanUcar.jpg"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\images\\our-team\\osmanSefaKoroglu.jpg",
@@ -2169,12 +2209,16 @@
       "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\BatuhanAralCv.pdf"
     },
     {
-      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\EymenDogan.pdf",
-      "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\EymenDogan.pdf"
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\EymenDogan2.pdf",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\EymenDogan2.pdf"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\HaticeAtabey.pdf",
       "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\HaticeAtabey.pdf"
+    },
+    {
+      "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\MahmutKarakus.pdf",
+      "PackagePath": "staticwebassets\\stand-blog\\assets\\pdf\\MahmutKarakus.pdf"
     },
     {
       "Id": "C:\\Users\\batuh\\OneDrive\\Belgeler\\GitHub\\BeckTech\\BeckTech\\BeckTech.Web\\wwwroot\\stand-blog\\assets\\pdf\\OsmanSefa.pdf",

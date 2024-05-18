@@ -53,21 +53,21 @@ namespace BeckTech.Data.Migrations
                         new
                         {
                             Id = new Guid("94b70614-d607-4883-8205-442444a54710"),
-                            ConcurrencyStamp = "c4db8230-782b-4498-a9f8-ec88a93ddcf4",
+                            ConcurrencyStamp = "59262c1d-167a-4720-96a2-b416bcd6ad12",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
                             Id = new Guid("94b70614-d607-4883-8205-442444a54711"),
-                            ConcurrencyStamp = "ea9e47ad-e4d4-49cd-a775-4e45b356b9c0",
+                            ConcurrencyStamp = "2d6d30dd-8066-420e-9bca-d71ecddb45fc",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = new Guid("94b70614-d607-4883-8205-442444a54712"),
-                            ConcurrencyStamp = "3e2443e3-14cb-4d87-937a-85d50e83dc3a",
+                            ConcurrencyStamp = "a5b5921b-4ca0-4f08-bf9b-e3fdfb77e058",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -180,7 +180,7 @@ namespace BeckTech.Data.Migrations
                         {
                             Id = new Guid("0b66f151-e4ab-4a80-b867-6b868cf2e400"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "236c1f8d-4ff0-4494-96b4-223d790b1fbd",
+                            ConcurrencyStamp = "e8774630-cb67-4d1d-ac0c-98d548281f73",
                             Email = "superadmin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "Batuhan",
@@ -189,10 +189,10 @@ namespace BeckTech.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "SUPERADMIN@GMAIL.COM",
                             NormalizedUserName = "SUPERADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDPW/QiZ7yMgUqs7oYdhOp0agFuhH+B7JIwOLOCdJGr3see0HoPJQuBOWOiXoeb8Iw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJ+C8uALtGtw2X7EJSCWncpZ997gYLPcLBWUVT7LXAc4sBa+bAUW9t+JywyHLTdPZQ==",
                             PhoneNumber = "+905434579738",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "0cd7df2a-39f3-4bb9-8ebe-66d68f0a43cf",
+                            SecurityStamp = "045f6548-aaf2-4a19-858c-b9f735e8b419",
                             TwoFactorEnabled = false,
                             UserName = "superadmin@gmail.com"
                         },
@@ -200,7 +200,7 @@ namespace BeckTech.Data.Migrations
                         {
                             Id = new Guid("0b66f151-e4ab-4a80-b867-6b868cf2e401"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2f6b8453-dc0e-4324-b715-9c6a36f0b6c7",
+                            ConcurrencyStamp = "3c0dfbe9-b988-4a82-8725-a630c03fe597",
                             Email = "admin@gmail.com",
                             EmailConfirmed = false,
                             FirstName = "Eymen",
@@ -209,10 +209,10 @@ namespace BeckTech.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMIN@GMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJHiFvTN/n7rHvAZylYHvZv1ntuC7PanzvVxi/VnU3yD78sUH/oHmW7aFjBEPywuXA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOZo3k8h/3Vy7w9WEMdPZmwJ8vvCrkp/6jsPj5FMSpT31zVsyQhL1zp2oS4qSenWvA==",
                             PhoneNumber = "+905434579738",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "69bf5cab-0c8f-4435-9bf4-142c3bb08a7e",
+                            SecurityStamp = "e12e1d53-5e34-4ce6-9220-25c02d7a11dd",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         });
@@ -371,11 +371,11 @@ namespace BeckTech.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("ef764855-74b0-4847-bdf7-422850ca2cd7"),
+                            Id = new Guid("c6810b5c-2468-43f3-9551-2164ad9fd6f8"),
                             CategoryId = new Guid("006b8234-53e7-4482-a70d-b36c12304431"),
                             Content = "DbContext Yapılandırmasını Kontrol Edin: BeckTechDbContext sınıfınızın doğru yapılandırıldığından emin olun. Bağlantı dizesini ve başlatma sırasında gerekli seçenekleri doğru şekilde sağladığınızdan emin olun.\r\n\r\nVeritabanı Sağlayıcısını Kurulumu: Eğer Entity Framework Core kullanıyorsanız, veritabanı sağlayıcısını doğru şekilde yapılandırdığınızdan emin olun. Kullandığınız veritabanına bağlı olarak, ilave NuGet paketlerini yüklemeniz ve sağlayıcıyı Startup.cs veya Program.cs dosyalarında yapılandırmanız gerekebilir.\r\n\r\nBağımlılık Enjeksiyonu Kurulumu: BeckTechDbContext sınıfınızın bağımlılık enjeksiyonu konteynerine doğru şekilde kaydedildiğinden emin olun. Eğer ASP.NET Core kullanıyorsanız, DbContext'i hizmetler koleksiyonuna eklediğinizden emin olun.\r\n\r\nBağlantı Dizesini Kontrol Edin: Veritabanı bağlantı dizesinin doğru olduğundan ve geçerli bir veritabanı örneğine işaret ettiğinden emin olun. Eğer yerel bir veritabanı kullanıyorsanız, veritabanı sunucusunun çalıştığından emin olun.\r\n\r\nVeritabanı Erişim İzinlerini Kontrol Edin: Uygulamanızın veritabanına bağlanmak için kullandığı kullanıcı hesabının, veri okuma ve yazma izinlerine sahip olduğundan emin olun.\r\n\r\nVarlık Yapılandırmasını Kontrol Edin: Eğer ilişkilendirilmiş varlıklarınızı yapılandırdıysanız, yapılandırmaların doğru olduğundan ve döngüsel bağımlılıklar veya diğer sorunlara neden olmadığından emin olun.\r\n\r\nGünlüğe Almayı ve Hata Ayıklamayı Etkinleştirin: Entity Framework Core için günlükleme özelliğini etkinleştirerek daha detaylı hata mesajları alabilirsiniz. Bu, DbContext oluşturma hatasını daha kesin bir şekilde belirlemenize yardımcı olabilir.\r\n\r\nBaşlatma Günlüklerini İnceleyin: Uygulama başlatma günlüklerini, sorunu daha iyi anlamanıza veya gidermenize yardımcı olabilecek ek hata mesajları veya uyarıları için kontrol edin.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 5, 3, 18, 13, 29, 466, DateTimeKind.Local).AddTicks(1533),
+                            CreatedDate = new DateTime(2024, 5, 17, 19, 25, 30, 529, DateTimeKind.Local).AddTicks(9303),
                             ImageId = new Guid("006b8234-53e7-4482-a70d-b36c12304432"),
                             IsDeleted = false,
                             Title = "C# Makalesi",
@@ -384,11 +384,11 @@ namespace BeckTech.Data.Migrations
                         },
                         new
                         {
-                            Id = new Guid("0247aa5e-3519-4033-8356-ed2239f2cc77"),
+                            Id = new Guid("512b6dfb-8431-4378-b614-a9e24630ef0f"),
                             CategoryId = new Guid("e800c003-f241-43d9-8a75-0713987357f5"),
                             Content = "aaaaaaaaa Yapılandırmasını Kontrol Edin: BeckTechDbContext sınıfınızın doğru yapılandırıldığından emin olun. Bağlantı dizesini ve başlatma sırasında gerekli seçenekleri doğru şekilde sağladığınızdan emin olun.\r\n\r\nVeritabanı Sağlayıcısını Kurulumu: Eğer Entity Framework Core kullanıyorsanız, veritabanı sağlayıcısını doğru şekilde yapılandırdığınızdan emin olun. Kullandığınız veritabanına bağlı olarak, ilave NuGet paketlerini yüklemeniz ve sağlayıcıyı Startup.cs veya Program.cs dosyalarında yapılandırmanız gerekebilir.\r\n\r\nBağımlılık Enjeksiyonu Kurulumu: BeckTechDbContext sınıfınızın bağımlılık enjeksiyonu konteynerine doğru şekilde kaydedildiğinden emin olun. Eğer ASP.NET Core kullanıyorsanız, DbContext'i hizmetler koleksiyonuna eklediğinizden emin olun.\r\n\r\nBağlantı Dizesini Kontrol Edin: Veritabanı bağlantı dizesinin doğru olduğundan ve geçerli bir veritabanı örneğine işaret ettiğinden emin olun. Eğer yerel bir veritabanı kullanıyorsanız, veritabanı sunucusunun çalıştığından emin olun.\r\n\r\nVeritabanı Erişim İzinlerini Kontrol Edin: Uygulamanızın veritabanına bağlanmak için kullandığı kullanıcı hesabının, veri okuma ve yazma izinlerine sahip olduğundan emin olun.\r\n\r\nVarlık Yapılandırmasını Kontrol Edin: Eğer ilişkilendirilmiş varlıklarınızı yapılandırdıysanız, yapılandırmaların doğru olduğundan ve döngüsel bağımlılıklar veya diğer sorunlara neden olmadığından emin olun.\r\n\r\nGünlüğe Almayı ve Hata Ayıklamayı Etkinleştirin: Entity Framework Core için günlükleme özelliğini etkinleştirerek daha detaylı hata mesajları alabilirsiniz. Bu, DbContext oluşturma hatasını daha kesin bir şekilde belirlemenize yardımcı olabilir.\r\n\r\nBaşlatma Günlüklerini İnceleyin: Uygulama başlatma günlüklerini, sorunu daha iyi anlamanıza veya gidermenize yardımcı olabilecek ek hata mesajları veya uyarıları için kontrol edin.",
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 5, 3, 18, 13, 29, 466, DateTimeKind.Local).AddTicks(1541),
+                            CreatedDate = new DateTime(2024, 5, 17, 19, 25, 30, 529, DateTimeKind.Local).AddTicks(9310),
                             ImageId = new Guid("e800c003-f241-43d9-8a75-0713987357f6"),
                             IsDeleted = false,
                             Title = "Asp.Net Deneme Makalesi",
@@ -488,7 +488,7 @@ namespace BeckTech.Data.Migrations
                         {
                             Id = new Guid("006b8234-53e7-4482-a70d-b36c12304431"),
                             CreatedBy = "AdminTest",
-                            CreatedDate = new DateTime(2024, 5, 3, 18, 13, 29, 466, DateTimeKind.Local).AddTicks(2829),
+                            CreatedDate = new DateTime(2024, 5, 17, 19, 25, 30, 530, DateTimeKind.Local).AddTicks(678),
                             IsDeleted = false,
                             Name = "C#"
                         },
@@ -496,7 +496,7 @@ namespace BeckTech.Data.Migrations
                         {
                             Id = new Guid("e800c003-f241-43d9-8a75-0713987357f5"),
                             CreatedBy = "AdminTest",
-                            CreatedDate = new DateTime(2024, 5, 3, 18, 13, 29, 466, DateTimeKind.Local).AddTicks(2833),
+                            CreatedDate = new DateTime(2024, 5, 17, 19, 25, 30, 530, DateTimeKind.Local).AddTicks(681),
                             IsDeleted = false,
                             Name = "Asp.Net"
                         });
@@ -590,7 +590,7 @@ namespace BeckTech.Data.Migrations
                         {
                             Id = new Guid("006b8234-53e7-4482-a70d-b36c12304432"),
                             CreatedBy = "Test Admin",
-                            CreatedDate = new DateTime(2024, 5, 3, 18, 13, 29, 466, DateTimeKind.Local).AddTicks(2996),
+                            CreatedDate = new DateTime(2024, 5, 17, 19, 25, 30, 530, DateTimeKind.Local).AddTicks(811),
                             FileName = "images/testimage",
                             FileType = "jpg",
                             IsDeleted = false
@@ -599,7 +599,7 @@ namespace BeckTech.Data.Migrations
                         {
                             Id = new Guid("e800c003-f241-43d9-8a75-0713987357f6"),
                             CreatedBy = "Test Admin",
-                            CreatedDate = new DateTime(2024, 5, 3, 18, 13, 29, 466, DateTimeKind.Local).AddTicks(3012),
+                            CreatedDate = new DateTime(2024, 5, 17, 19, 25, 30, 530, DateTimeKind.Local).AddTicks(815),
                             FileName = "images/testimage",
                             FileType = "jpg",
                             IsDeleted = false

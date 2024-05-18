@@ -1,4 +1,9 @@
 ﻿@model ArticleForUserDto
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "_LayoutIndex";
+
+}
 <!-- Start _post -->
 
 <div class="blog blog-post ">
@@ -34,8 +39,8 @@
                         
                     </div>
                     <!--tags panel-->
-                     @await Component.InvokeAsync("MostReadDetailPage")
- 
+@*                      @await Component.InvokeAsync("MostReadDetailPage")
+ *@ 
                     
                    
                 </div>

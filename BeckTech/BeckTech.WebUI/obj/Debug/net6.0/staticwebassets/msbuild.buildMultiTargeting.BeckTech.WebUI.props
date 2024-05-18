@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\BeckTech.WebUI.props" />
-</Project>

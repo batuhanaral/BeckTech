@@ -71,7 +71,7 @@ namespace BeckTech.Web.Controllers
         }
         public async Task<IActionResult> Detail(Guid id)
         {
-            var article = await visitorService.AddVisitor(id); 
+            var article = await articleService.GetArticleWithCategoryForUserNonDeletedAsync(id); 
             return View(article);
         }
 

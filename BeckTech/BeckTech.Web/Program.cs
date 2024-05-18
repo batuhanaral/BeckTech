@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews(opt =>
 {
-    opt.Filters.Add<ArticleVisitorFilter>();
+    //opt.Filters.Add<ArticleVisitorFilter>();
 })
     .AddNToastNotifyToastr(new ToastrOptions()
     {
@@ -45,7 +45,7 @@ builder.Services.ConfigureApplicationCookie(config =>
         Name = "BeckTech",
         HttpOnly = true,
         SameSite = SameSiteMode.Strict,
-        SecurePolicy = CookieSecurePolicy.Always,//canlya çýkýnca always olacak
+        SecurePolicy = CookieSecurePolicy.None,//canlya çýkýnca always olacak
     };
     config.SlidingExpiration = true;
     config.ExpireTimeSpan = TimeSpan.FromDays(1);
