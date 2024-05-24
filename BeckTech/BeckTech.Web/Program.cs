@@ -159,6 +159,12 @@ app.UseEndpoints(endpoints =>
 
       );
     endpoints.MapControllerRoute(
+       name: "ZeynepKalaycioglu",
+       pattern: "ZeynepKalaycioglu",
+       defaults: new { controller = "Home", action = "ZeynepKalaycioglu" }
+
+   );
+    endpoints.MapControllerRoute(
           name: "Ýletiþim",
           pattern: "Ýletiþim",
           defaults: new { controller = "Home", action = "Contact" }

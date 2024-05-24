@@ -25,6 +25,7 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Views\Shared\_Partials\" />
     <Folder Include="wwwroot\images\article-images\" />
+    <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 
   <ItemGroup>

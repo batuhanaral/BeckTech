@@ -23,7 +23,7 @@
                         </div>
                         <div class="form-group">
                             <label asp-for="Content" class="form-label">Makale</label>
-                            <textarea asp-for="Content" type="text" style="min-height:300px" class="form-control mb-3" id="myEditor" placeholder="İçerik Giriniz" aria-describedby="defaultFormControlHelp"></textarea>
+                            <textarea asp-for="Content" style="min-height:300px" class="form-control mb-3" placeholder="İçerik Giriniz" aria-describedby="defaultFormControlHelp"></textarea>
                             <span asp-validation-for="Content" class="text-danger"></span>
                         </div>
                         <div class="form-group">
@@ -47,32 +47,53 @@
     </div>
 </div>
 
-<script>
-    function previewImage(event) {
-        var reader = new FileReader();
-        reader.onload = function () {
-            var output = document.getElementById('currentImage');
-            output.src = reader.result;
-            // Dosya seçimi yapıldığında iptal butonunu görünür yap
-            document.getElementById('cancelButton').style.display = 'block';
-        };
 
-        if (event.target.files.length === 0) {
-            var oldImageSrc = '@Url.Content("~/images/" + (Model.Image != null ? Model.Image.FileName : "id2"))';
-            output.src = oldImageSrc;
-        } else {
-            reader.readAsDataURL(event.target.files[0]);
+@section Scripts {
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script>
+        $(document).ready(function () {
+            if (CKEDITOR.instances['Content']) {
+                CKEDITOR.instances['Content'].destroy(true);
+            }
+            CKEDITOR.replace('Content', {
+                filebrowserUploadUrl: '/home/UploadImage',
+                filebrowserBrowseUrl: '/home/UploadExplorer',
+                filebrowserUploadMethod: 'form',
+                extraPlugins: 'uploadimage',
+                removePlugins: 'easyimage,cloudservices',
+                language: 'tr'
+            });
+        });
+    </script>
+    <script>
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var output = document.getElementById('currentImage');
+                output.src = reader.result;
+                // Dosya seçimi yapıldığında iptal butonunu görünür yap
+                document.getElementById('cancelButton').style.display = 'block';
+            };
+
+            if (event.target.files.length === 0) {
+                var oldImageSrc = '@Url.Content("~/images/" + (Model.Image != null ? Model.Image.FileName : "id2"))';
+                output.src = oldImageSrc;
+            } else {
+                reader.readAsDataURL(event.target.files[0]);
+            }
         }
-    }
 
-    // Dosya seçimi iptal etmek için fonksiyon
-    function cancelImageSelection() {
-        var input = document.getElementById('Photo');
-        input.value = ''; // Dosya seçimini temizle
-        var output = document.getElementById('currentImage');
-        var oldImageSrc = '@Url.Content("~/images/" + (Model.Image != null ? Model.Image.FileName : "id2"))';
-        output.src = oldImageSrc; // Eski fotoğrafı göster
-        // Dosya seçimi iptal edildiğinde iptal butonunu gizle
-        document.getElementById('cancelButton').style.display = 'none';
-    }
-</script>
+        // Dosya seçimi iptal etmek için fonksiyon
+        function cancelImageSelection() {
+            var input = document.getElementById('Photo');
+            input.value = ''; // Dosya seçimini temizle
+            var output = document.getElementById('currentImage');
+            var oldImageSrc = '@Url.Content("~/images/" + (Model.Image != null ? Model.Image.FileName : "id2"))';
+            output.src = oldImageSrc; // Eski fotoğrafı göster
+            // Dosya seçimi iptal edildiğinde iptal butonunu gizle
+            document.getElementById('cancelButton').style.display = 'none';
+        }
+
+    </script>
+   
+}

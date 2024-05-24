@@ -18,7 +18,7 @@
     <meta name="robots" content="index,follow">
     <meta name="publisher" content="BeckTech">
 
-
+    <!--CkEditor-->
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="~/sneat/assets/img/favicon/favicon.ico" />
@@ -50,6 +50,7 @@
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="~/sneat/assets/js/config.js"></script>
+
 </head>
 
 <body>
@@ -277,7 +278,7 @@
 
     <!-- Page JS -->
     <script src="~/sneat/assets/js/dashboards-analytics.js"></script>
-    @await RenderSectionAsync("Scripts",false);
+    @RenderSectionAsync("Scripts", required: false)
     @await Component.InvokeAsync("NToastNotify");
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -286,14 +287,8 @@
     <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/buttons/1.6.3/js/dataTables.buttons.min.js" crossorigin="anonymous"></script>
     <!-- Text Editör CkEditör -->
-    <script src="https://cdn.ckeditor.com/ckeditor5/41.2.1/classic/ckeditor.js"></script>
-    <script>
-        ClassicEditor
-            .create(document.querySelector('#myEditor'))
-            .catch(error => {
-                console.error(error);
-            });
-    </script>
+    <script src="~/ckeditor/ckeditor.js"></script>
+
 
 </body>
 </html>

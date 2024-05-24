@@ -25,7 +25,7 @@
                     </div>
                 </div> *@
                 <h2 class="post-title">@Model.Title </h2>
-                <div class="post-img-wrapper post-featured-area"><img class="featured-img" loading="lazy" src="~/images/@Model.Image.FileName" alt="@Model.Title"></div>
+                <div class="post-img-wrapper post-featured-area"><img class="featured-img"  src="~/images/@Model.Image.FileName" alt="@Model.Title"></div>
             </div>
             <div class="col-12 col-lg-9 mx-auto">
                 <div class="post-main-area">
@@ -49,3 +49,21 @@
     </div>
 </div>
 <!-- End _post -->
+<!-- Sayfa içi CSS -->
+<style>
+    /* Responsive resim ve metin düzenlemeleri */
+    .post-content img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .post-content {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    /* Genel olarak blog-post sınıfı için ekstra düzenlemeler */
+    .blog-post {
+        padding: 15px;
+    }
+</style>

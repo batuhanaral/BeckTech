@@ -1,0 +1,55 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Explorer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        #browseFile {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .img-thumbnail {
+            margin: 10px;
+            cursor: pointer;
+        }
+
+            .img-thumbnail img {
+                width: 120px;
+                height: 100px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="browseFile">
+            @foreach (var item in ViewBag.FileInfo)
+            {
+                <div class="img-thumbnail">
+                    <img src="@Url.Content("~/uploads/" + item.Name)" alt="thumb" title="@item.Name" />
+                    <br />
+                    @item.Name
+                </div>
+            }
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script>
+        $(document).ready(function () {
+            var funcNum = @Context.Request.Query["CKEditorFuncNum"];
+            $('#browseFile').on('click', 'img', function () {
+                var fileUrl = '@Url.Content("~/uploads/")' + $(this).attr('title');
+                window.opener.CKEDITOR.tools.callFunction(funcNum, fileUrl);
+                window.close();
+            }).hover(function () {
+                $(this).css('cursor', 'pointer');
+            });
+        });
+    </script>
+</body>
+</html>

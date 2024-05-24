@@ -4,9 +4,12 @@ using BechTech.Entity.DTO.Contact;
 using BechTech.Entity.Entities;
 using BeckTech.Service.Extensions;
 using BeckTech.Service.Services.Abstractions;
+using BeckTech.Web.Consts;
 using BeckTech.Web.Models;
 using BeckTech.Web.ResultMessages;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using NToastNotify;
 using System.Diagnostics;
@@ -23,8 +26,9 @@ namespace BeckTech.Web.Controllers
         private readonly IArticleService articleService;
         private readonly IHttpContextAccessor httpContextAccessor;
         private readonly IVisitorService visitorService;
+        private readonly IWebHostEnvironment webHostEnvironment;
 
-        public HomeController(ILogger<HomeController> logger, IContactService contactService, IValidator<Contact> validator, IMapper mapper, IToastNotification toastNotification,IArticleService articleService,IHttpContextAccessor httpContextAccessor,IVisitorService visitorService)
+        public HomeController(ILogger<HomeController> logger, IContactService contactService, IValidator<Contact> validator, IMapper mapper, IToastNotification toastNotification,IArticleService articleService,IHttpContextAccessor httpContextAccessor,IVisitorService visitorService, IWebHostEnvironment webHostEnvironment)
         {
             _logger = logger;
             this.contactService = contactService;
@@ -34,6 +38,7 @@ namespace BeckTech.Web.Controllers
             this.articleService = articleService;
             this.httpContextAccessor = httpContextAccessor;
             this.visitorService = visitorService;
+            this.webHostEnvironment = webHostEnvironment;
         }
 
         public async Task<IActionResult> Index()
@@ -73,6 +78,46 @@ namespace BeckTech.Web.Controllers
         {
             var article = await articleService.GetArticleWithCategoryForUserNonDeletedAsync(id); 
             return View(article);
+        }
+
+        [HttpPost]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
+        public async Task<IActionResult> UploadImage(IFormFile upload)
+        {
+            if (upload != null && upload.Length > 0)
+            {
+                var fileName = DateTime.Now.ToString("ddMMyyyy") + "_" + Guid.NewGuid().ToString() + Path.GetExtension(upload.FileName);
+                var uploadsFolderPath = Path.Combine(webHostEnvironment.WebRootPath, "uploads");
+
+                if (!Directory.Exists(uploadsFolderPath))
+                {
+                    Directory.CreateDirectory(uploadsFolderPath);
+                }
+
+                var filePath = Path.Combine(uploadsFolderPath, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await upload.CopyToAsync(stream);
+                }
+
+                // CKEditor'in beklediği formatta JSON dönüş
+                return Json(new { uploaded = true, url = "/uploads/" + fileName });
+            }
+
+            return Json(new { uploaded = false });
+        }
+
+
+        [HttpGet]
+        [Authorize(Roles = $"{RoleConsts.SuperAdmin},{RoleConsts.Admin}")]
+        public async Task<IActionResult> UploadExplorer()
+        {
+            var uploadsFolderPath = Path.Combine(webHostEnvironment.WebRootPath, "uploads");
+            var dir = new DirectoryInfo(uploadsFolderPath);
+            var files = dir.GetFiles().OrderByDescending(f => f.CreationTime).ToArray(); // Dosyaları tarihe göre sırala
+            ViewBag.FileInfo = files;
+            return View("FileExplorer");
         }
 
         public async Task<IActionResult> AboutUs()
@@ -157,6 +202,10 @@ namespace BeckTech.Web.Controllers
             return View();
         }
         public async Task<IActionResult> DuyguDogan()
+        {
+            return View();
+        }
+        public async Task<IActionResult> ZeynepKalaycioglu()
         {
             return View();
         }
